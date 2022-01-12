@@ -1,0 +1,162 @@
+﻿.p-dialog-w {
+    width:1000px;
+}
+
+.popup-model .login-info {
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.popup-model .popup-title span {
+    color: white;
+    text-align: right;
+    font-size: 11pt !important;
+}
+.popup-title {
+    display: block;
+    margin: 0;
+    padding: 3px 5px;
+    color: white;
+    font-size: 11pt !important;
+}
+
+.tpl99050-cls {
+    width:100%
+}
+
+.tpl99010-cls {
+    width: 100%
+}
+
+.tpl99040-cls {
+    width: 100%
+}
+
+.tpl99020-cls {
+    width: 100%
+}
+
+.popup-model .p-checkbox {
+    height: 12px !important;
+}
+
+.popup-model table tr td:hover,
+.popup-model table tr th:hover {
+    cursor: pointer;
+}
+
+.container-table tr td span,
+.container-table th {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.popup-model .modal {
+    pointer-events: none;
+}
+
+.popup-model .modal-dialog {
+    pointer-events: all;
+}
+
+.txt-name-p2 {
+    width: 102px;
+}
+
+.combobox-cls-p {
+    width: 120px;
+}
+
+.group-pagination-content {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+}
+
+/*.popup-model table input[type='checkbox']:focus {
+    outline: 2px solid #acc8fa;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
+
+.popup-model table input[type='checkbox']:focus-visible {
+    outline: 2px solid #acc8fa;
+    border-radius: 2px;
+}
+*/
+
+/*.popup-model tr td:focus {
+    border: 0.3px solid #acc8fa !important;
+    border-radius: 4px;
+}
+*/
+
+.width-180 {
+    width: 180px;
+}
+.width-270 {
+    width: 270px;
+}
+
+.width-330 {
+    width: 330px;
+}
+
+.h-40 {
+    height: 40px;
+}
+
+.popup-model .modal-body .footer-p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-right: 2rem;
+}
+
+.tpl99010-p .modal-content {
+    width: 1062px;
+    height: 390px;
+}
+
+.tpl99020-p .modal-content {
+    width: 892px;
+    height: 470px;
+}
+
+.tpl99040-p .modal-content {
+    width: 732px;
+    height: 470px;
+}
+.tpl99050-p .modal-content {
+    width: 962px;
+    height: 470px;
+}
+
+.tpl99020-tbl,
+.tpl99040-tbl,
+.tpl99050-tbl {
+    height: 320px;
+}
+
+.tpl99010-p .modal-dialog {
+    padding: 0px 40px;
+}
+.tpl99020-p .modal-dialog {
+    padding: 0px 125px;
+}
+.tpl99040-p .modal-dialog {
+    padding: 0px 210px;
+}
+.tpl99050-p .modal-dialog {
+    padding: 0px 100px;
+}
+
+.border-bottom-p {
+    border-bottom: 1px solid black;
+}
+
+.ml-7cell{
+    margin-left: 119px;
+}
+

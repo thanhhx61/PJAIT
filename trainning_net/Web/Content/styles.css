@@ -1,0 +1,206 @@
+body {
+    font-size: 11pt !important;
+    position: relative;
+    height: 100vh;
+}
+
+select,
+input {
+    height: 32px !important;
+}
+
+input,
+span,
+p,
+select {
+    font-size: 11pt !important;
+}
+
+span, p {
+    color: #666666;
+}
+
+.content-header {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.content-header span {
+    color: white;
+}
+
+.content-header .login-info {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.content-header .login-info span {
+    margin-left: 50px;
+}
+
+.content-footer {
+    background-color: #262626;
+    height: 30px;
+}
+
+.container-fluid {
+    height: calc(100vh - 65px);
+    display: block;
+    overflow-y: auto;
+    padding-top: 12px;
+    padding-left: 17px;
+    padding-right: 17px;
+}
+
+.content-left-ver {
+    min-width: 130px;
+}
+
+table .col-num1 {
+    width: 50px;
+}
+
+table .col-num3 {
+    width: 100px;
+}
+
+table tbody .col-num1 {
+    text-align: center;
+}
+
+
+.select-list-container {
+    display: flex;
+}
+
+.auto-complete {
+    position: relative;
+}
+
+.list-autocmp {
+    display: block;
+    overflow-y: auto;
+    width: 100%;
+    max-height: 140px;
+    border: 1px solid grey;
+    position: absolute;
+    z-index: 1000;
+    background: white;
+}
+
+#loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+#loading #screen_lock {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: grey;
+    opacity: 0.2;
+}
+
+
+.txt-elipsis-ver {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
+    max-width: 100%;
+}
+
+.text-danger {
+    color: red !important;
+}
+
+table tr td, table tr th {
+    vertical-align: middle !important;
+}
+
+.text-custom-nowrap-header {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.container-fluid button {
+    width: 88px;
+    height: 32px;
+    padding-bottom: 5px;
+}
+
+.popup-model button {
+    width: 88px;
+    height: 32px;
+    padding-bottom: 5px;
+}
+
+.txt-login {
+    width: 100px;
+}
+
+.input-login {
+    width: 232px;
+}
+
+/*editabe*/
+.container-fluid .table-editable select {
+    padding: 0;
+}
+
+.container-fluid .table-editable input {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/*non-editabe*/
+.custom-table .selected {
+    background-color: #B0BED9 !important;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #B0BED9 !important;
+}
+
+.custom-table tr td:focus,
+.custom-table tr td:focus-visible {
+    outline: 2px solid #000000;
+    border-radius: 3px;
+    outline-offset: -2px;
+}
+
+/*radio Button*/
+.content-group-radio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    .content-group-radio .content-radio {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        min-width: 100px;
+    }
+
+    .content-group-radio .content-radio label {
+        margin-bottom: 0;
+        padding-left: 15px;
+    }
+
+
+.tpl-btn-mr {
+    margin-right: 34px;
+}

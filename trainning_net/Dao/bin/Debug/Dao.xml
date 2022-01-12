@@ -1,0 +1,230 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Dao
+</name>
+</assembly>
+<members>
+<member name="T:Dao.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Dao.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Dao.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Key">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Code">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Name">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Abbreviation">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Number1">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Number2">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Number3">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Character1">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Character2">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.Character3">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.DisplayOrder">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.processType">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.ImmutableFlag">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.UpdateDate">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:Dao.ClassSearchCodeDto.UserId">
+ <summary>
+ 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Dao.コードDao.GetCodeApplyByDate(System.DateTime)">
+ <summary>
+ 適用区分のコード情報を取得する。
+ </summary>
+ <param name="targetDate">受注日</param>
+ <returns>コード一覧</returns>
+</member>
+<member name="M:Dao.コードDao.GetCodeBykey(System.String,System.String)">
+ <summary>
+ 識別でコード情報を取得する。
+ </summary>
+ <param name="key">画面情報.識別</param>
+ <param name="code">画面情報.コード</param>
+ <returns></returns>
+</member>
+<member name="M:Dao.コードDao.UpdateCode(System.Object,Dao.LogInfoDto)">
+ <summary>
+ コード情報を更新する。
+ </summary>
+ <param name="data">画面情報</param>
+ <returns>データ件数</returns>
+</member>
+<member name="M:Dao.コードDao.DeleteCode(System.DateTime,System.String,System.String,System.String,Dao.LogInfoDto)">
+ <summary>
+ コード情報を削除する。
+ </summary>
+ <param name="UpdateDate">更新日</param>
+ <param name="UserId">更新者</param>
+ <param name="key">画面情報.識別</param>
+ <param name="code">画面情報.コード</param>
+ <returns>データ件数</returns>
+</member>
+<member name="P:Dao.Dto.請求書編集明細Dto.処理対象行">
+ <summary>
+ TODO
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Dao.メニューDao.SelectProgramByParentMenuID(System.String)">
+ <summary>
+ URLの画面を取得する。
+ </summary>
+ <param name="parentMenuID">MenuID</param>
+ <returns></returns>
+</member>
+<member name="M:Dao.受注加工Dao.DeleteQueryById(System.Object,Dao.LogInfoDto)">
+ <summary>
+ 受注加工情報を削除する。
+ </summary>
+ <param name="param">パラメタ情報</param>
+ <returns></returns>
+</member>
+<member name="M:Dao.受注基本Dao.GetOrderByKey1(System.String)">
+ <summary>
+ GetOrderByKey1
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>TPL_受注基本</returns>
+</member>
+<member name="M:Dao.受注基本Dao.GetOrderItemByKey(System.String)">
+ <summary>
+ GetOrderItemByKey
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>String</returns>
+</member>
+<member name="M:Dao.受注基本Dao.GetOrderPagedList(Dao.PaginationRequestDto{Dao.SearchOrderParamDto})">
+ <summary>
+ TPL01040 受注検索処理 - Pagination
+ </summary>
+ <param name="request">PaginationRequestDto(Of SearchOrderParamDto)</param>
+ <returns>PanigationResultDto(Of SearchOrderResultDto)</returns>
+</member>
+<member name="M:Dao.受注基本Dao.GetOrderList(Dao.SearchOrderParamDto)">
+ <summary>
+ TPL01040 受注検索処理 
+ </summary>
+ <param name="param">SearchOrderParamDto</param>
+ <returns>List(Of SearchOrderResultDto)</returns>
+</member>
+<member name="M:Dao.受注基本Dao.GetListOrderSales(System.String)">
+ <summary>
+ 売上ボタンクリック時 - 2. 各工程の内外区分のチェックを行う。
+ </summary>
+ <param name="param">string</param>
+ <returns>List(Of 受注番号)</returns>
+</member>
+<member name="M:Dao.受注基本Dao.GetQuerySelectOrder(Dao.SearchOrderParamDto)">
+ <summary>
+ Get query select order
+ </summary>
+ <param name="param">SearchOrderParamDto</param>
+ <returns>Query select order</returns>
+</member>
+<member name="M:Dao.受注基本Dao.UpdateOrderMemoBy受注番号And更新回数(Dao.受注基本Dto,Dao.LogInfoDto)">
+ <summary>
+ 受注メモ更新処理
+ </summary>
+ <param name="model">受注基本Dto</param>
+ <returns>更新件数</returns>
+</member>
+<member name="M:Dao.売掛締Dao.SelectStatusByDate(System.DateTime)">
+ <summary>
+ Get 状況 by 日付
+ </summary>
+ <param name="targetDate"></param>
+ <returns></returns>
+</member>
+<member name="M:Dao.自社Dao.GetPayableAndReciveClosingDate">
+ <summary>
+ 自社締日
+ </summary>
+ <returns>ClosingDateDto</returns>
+</member>
+</members>
+</doc>

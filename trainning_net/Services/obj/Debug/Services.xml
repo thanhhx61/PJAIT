@@ -1,0 +1,469 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Services
+</name>
+</assembly>
+<members>
+<member name="T:Services.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Services.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Services.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Services.Services.ICMN9000Service">
+ <summary>
+ 共通関数
+ </summary>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetNameByCode(System.String,System.String,System.String)">
+ <summary>
+ コードを検索条件に、データ検索を行う。名称・略称のどちらを取得するかParamで指定する。
+ </summary>
+ <param name="key">コード.識別</param>
+ <param name="code">コード.コード</param>
+ <param name="typeGet">1：名称、2：略称</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetCodeByIdentifer(System.String,System.String)">
+ <summary>
+ 識別を検索条件に、データ検索を行う。
+ </summary>
+ <param name="key">コード.識別</param>
+ <param name="code">コード.コード</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetCustomerByCode(System.String,System.String,System.String)">
+ <summary>
+ 識別を検索条件に、データ検索を行う。
+ </summary>
+ <param name="code">取引先</param>
+ <param name="customerType">1：得意先、2：仕入先</param>
+ <param name="typeGet">1：名称、2：略称</param>
+ <returns>String</returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetEmployeeByCode(System.String)">
+ <summary>
+ 担当を元に担当名を取得する。
+ </summary>
+ <param name="code">担当</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetPaperByCode(System.String)">
+ <summary>
+ 銘柄を元に銘柄名を取得する。
+ </summary>
+ <param name="code">銘柄</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetDepatureByCode(System.String,System.String)">
+ <summary>
+ 担当を検索条件に、部署のデータ検索を行う。戻り値としてコード + 名称または略称を返す。
+ </summary>
+ <param name="code">担当</param>
+ <param name="typeGet">1：名称、2：略称</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey1(System.String)">
+ <summary>
+ 受注番号を元に、受注情報を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey2(System.String)">
+ <summary>
+ 受注番号を元に、受注-制作を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey3(System.String)">
+ <summary>
+ 受注番号を元に、受注-製版を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey4(System.String)">
+ <summary>
+ 受注番号を元に、受注-刷版を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey5(System.String)">
+ <summary>
+ 受注番号を元に、受注-印刷を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey6(System.String)">
+ <summary>
+ 受注番号を元に、受注-加工を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey7(System.String)">
+ <summary>
+ 受注番号を元に、受注-用紙を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderByKey8(System.String)">
+ <summary>
+ 受注番号を元に、受注-その他を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetOrderItemByKey(System.String)">
+ <summary>
+ 受注番号を元に、受注情報の品名を取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetScheduleByKey(System.String)">
+ <summary>
+ 受注番号を元に、受注スケジュールを取得する。
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetPaymentDateByCode2(System.String,System.Nullable{System.DateTime},System.String)">
+ <summary>
+ 取引先を検索条件に、データ検索を行う。取引先の回収日または支払日を加味した日付を返す(例：2021/05/31)
+ </summary>
+ <param name="code">取引先</param>
+ <param name="targetDate">日付</param>
+ <param name="typeGet">0：回収日、1：支払日</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetTaxRateByDate(System.Nullable{System.DateTime})">
+ <summary>
+ 日付を元に税率を取得する。
+ </summary>
+ <param name="targetDate">日付</param>
+ <returns>コード</returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetRoundValue(System.Nullable{System.Decimal},System.Nullable{System.Int32},System.String)">
+ <summary>
+ 引数の値を丸め処理して、戻り値を返す。丸め処理する対象桁も引数で指定する。
+ </summary>
+ <param name="number">数値</param>
+ <param name="numberOfDigits">丸め処理する桁数(例：小数点第1位の場合は[1]、10の位の場合は[-1])</param>
+ <param name="fractionType">端数処理区分(0001：四捨五入、0002：切捨て、0003：切上げ)</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.ModFullWidthKana(System.String)">
+ <summary>
+ Paramを全角カナに置換する。
+ </summary>
+ <param name="character">置換対象の文字列</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.GetTaskIndentifer(System.String)">
+ <summary>
+ 各工程ごとの作業の識別を取得する。
+ </summary>
+ <param name="task">工程</param>
+ <returns>識別</returns>
+</member>
+<member name="M:Services.Services.ICMN9000Service.CalcMultiplication(System.Nullable{System.Decimal},System.Nullable{System.Decimal},System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+ <summary>
+ 引数を掛け算し、戻り値を返す。(正数での端数処理は想定しない)
+ </summary>
+ <param name="number1">数値</param>
+ <param name="number2">数値</param>
+ <param name="fractionType">端数処理区分(0001:四捨五入、0002:切捨て、0003：切上げ)</param>
+ <param name="decimalPoint">端数処理を行う小数点桁</param>
+ <param name="maxDigits">最大桁数</param>
+ <returns></returns>
+</member>
+<member name="T:Services.Services.TPL00010ServiceImpl">
+ <summary>
+ ログイン画面のサービス
+ </summary>
+</member>
+<member name="M:Services.Services.TPL00010ServiceImpl.Login(Services.Dto.LoginDto)">
+ <summary>
+ 社員情報を取得する。
+ </summary>
+ <param name="loginDto"></param>
+ <returns></returns>
+</member>
+<member name="T:Services.Services.TPL00020ServiceImpl">
+ <summary>
+ メニュー画面のサービス
+ </summary>
+</member>
+<member name="M:Services.Services.TPL00020ServiceImpl.GetMenu(System.String)">
+ <summary>
+ メニューマスタを検索する。
+ </summary>
+ <param name="userId"></param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.TPL00020ServiceImpl.GetProgram(System.String)">
+ <summary>
+ URLの画面を取得する。
+ </summary>
+ <param name="MenuId"></param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ITPL01040Service.SearchOrderPagedList(Dao.PaginationRequestDto{Dao.SearchOrderParamDto})">
+ <summary>
+ 受注検索処理
+ </summary>
+ <param name="request">PaginationRequestDto(Of SearchOrderParamDto)</param>
+ <returns>PanigationResultDto(Of SearchOrderResultDto)</returns>
+</member>
+<member name="M:Services.Services.ITPL01040Service.GetDataComboBoxById(System.String,System.Boolean)">
+ <summary>
+ Get Data Combobox By Id
+ </summary>
+ <param name="id">String</param>
+ <param name="blank">Boolean. Default = false</param>
+ <returns>List(Of ComboBoxDto)</returns>
+</member>
+<member name="M:Services.Services.ITPL01040Service.IsAnySalesByOrderNo(System.String)">
+ <summary>
+ Check 内外区分
+ </summary>
+ <param name="orderNo">string</param>
+ <returns>Boolean</returns>
+</member>
+<member name="M:Services.Services.ITPL01040Service.GetBtnControlArray">
+ <summary>
+ 6.Form_Load時仕様 -2. ボタン制御情報を取得する。
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.ITPL01040Service.ValidateSearchCondition(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+ <summary>
+ 検索時エラーチェック
+ </summary>
+ <param name="startDate">開始 - Date</param>
+ <param name="endDate">終了- Date</param>
+ <returns>TPL01040ResultDto</returns>
+</member>
+<member name="M:Services.Services.ITPL01040Service.ExportDataCSV(Dao.SearchOrderParamDto,System.String,System.String)">
+ <summary>
+ CSV出力ボタンクリック時
+ </summary>
+ <param name="paramSearch">SearchOrderParamDto</param>
+ <param name="loginId">User Login Id</param>
+ <param name="ipAddr">User IP Address</param>
+ <returns>StringBuilder Data csv</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.SearchOrderPagedList(Dao.PaginationRequestDto{Dao.SearchOrderParamDto})">
+ <summary>
+ 受注検索処理
+ </summary>
+ <param name="request">PaginationRequestDto(Of SearchOrderParamDto)</param>
+ <returns>PanigationResultDto(Of SearchOrderResultDto)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetDataComboBoxById(System.String,System.Boolean)">
+ <summary>
+ Get Data Combobox By Id
+ </summary>
+ <param name="id">String</param>
+ <param name="blank">Boolean. Default = false</param>
+ <returns>List(Of ComboBoxDto)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.IsAnySalesByOrderNo(System.String)">
+ <summary>
+ Check 内外区分
+ </summary>
+ <param name="orderNo">string</param>
+ <returns>Boolean</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.ValidateSearchCondition(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+ <summary>
+ 検索時エラーチェック
+ </summary>
+ <param name="startDate">開始 - Date</param>
+ <param name="endDate">終了- Date</param>
+ <returns>TPL01040ResultDto</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetBtnControlArray">
+ <summary>
+ 6.Form_Load時仕様 -2. ボタン制御情報を取得する。
+ </summary>
+ <returns>array Boolean</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.ExportDataCSV(Dao.SearchOrderParamDto,System.String,System.String)">
+ <summary>
+ CSV出力ボタンクリック時
+ </summary>
+ <param name="paramSearch">SearchOrderParamDto</param>
+ <param name="loginId">User Login Id</param>
+ <param name="ipAddr">User IP Address</param>
+ <returns>StringBuilder Data csv</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.AddCSVHeader(Dao.SearchOrderParamDto)">
+ <summary>
+ CSV編集仕様(ヘッダー部)
+ </summary>
+ <param name="param">CSVHeaderParamDto</param>
+ <returns>String csv header</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.AddCSVBody(System.Text.StringBuilder@,System.Collections.Generic.List{Dao.SearchOrderResultDto})">
+ <summary>
+ CSV編集仕様(ボディ部-受注)
+ </summary>
+ <param name="content">StringBuilder - ByRef</param>
+ <param name="dataSearch">List(Of SearchOrderResultDto)</param>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.AddCSVBodyDetail(System.Text.StringBuilder@,System.Collections.Generic.List{Dao.SearchOrderResultDto})">
+ <summary>
+ CSV編集仕様(ボディ部-受注)
+ </summary>
+ <param name="content">StringBuilder - ByRef</param>
+ <param name="dataSearch">List(Of SearchOrderResultDto)</param>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderInfo(Dao.受注基本Dto,Dao.受注スケジュールDto,Dao.SearchOrderResultDto)">
+ <summary>
+ 検索条件を元に取得した受注情報を3行目以降に編集する。
+ </summary>
+ <param name="orderInfo">受注基本Dto</param>
+ <param name="scheduleInfo">受注スケジュールDto</param>
+ <param name="itemSearch">SearchOrderResultDto</param>
+ <returns></returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.CalProfitRate(System.Decimal,System.Nullable{System.Decimal})">
+ <summary>
+ Calculate profit rate (利益率)
+ </summary>
+ <param name="受注金額">Decimal</param>
+ <param name="明細仕切金額">Decimal?</param>
+ <returns>利益率</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey2(Dao.受注制作Dto)">
+ <summary>
+ 制作工程の情報を編集する。
+ </summary>
+ <param name="order2">受注制作Dto</param>
+ <returns> List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey3(Dao.受注製版Dto)">
+ <summary>
+ 製版工程の情報を編集する。
+ </summary>
+ <param name="order3">受注製版Dto</param>
+ <returns> List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey4(Dao.受注刷版Dto)">
+ <summary>
+ 刷版工程の情報を編集する。
+ </summary>
+ <param name="order4">受注刷版Dto</param>
+ <returns>List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey5(Dao.受注印刷Dto)">
+ <summary>
+ 印刷工程の情報を編集する。
+ </summary>
+ <param name="order5">受注印刷Dto</param>
+ <returns>List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.CalQuatityByType(System.String,System.Decimal,System.Decimal)">
+ <summary>
+ Cal quantity (数量) by type(計算区分)
+ </summary>
+ <param name="計算区分">string</param>
+ <param name="通し数">Decimal</param>
+ <param name="台数">Decimal</param>
+ <returns>数量</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey6(Dao.受注加工Dto)">
+ <summary>
+ 加工工程の情報を編集する。
+ </summary>
+ <param name="order6">受注加工Dto</param>
+ <returns> List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey7(Dao.受注用紙Dto)">
+ <summary>
+ 用紙工程の情報を編集する。
+ </summary>
+ <param name="order7">受注用紙Dto</param>
+ <returns>List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetSizeName(System.String,System.Decimal,System.Decimal)">
+ <summary>
+ Get サイズ名
+ </summary>
+ <param name="規格">string</param>
+ <param name="縦">Decimal</param>
+ <param name="横">Decimal</param>
+ <returns>サイズ名</returns>
+</member>
+<member name="M:Services.Services.TPL01040ServiceImpl.GetValueCSVOrderByKey8(Dao.受注その他Dto)">
+ <summary>                               
+ その他工程の情報を編集する。
+ </summary>
+ <param name="order8">受注その他Dto</param>
+ <returns>List(Of String)</returns>
+</member>
+<member name="M:Services.Services.TPL99050ServiceImpl.SearchPaperPagedList(Dao.PaginationRequestDto{Dao.SearchPaperPopupParamDto})">
+ <summary>
+ ヘッダー部の情報を元に用紙情報を検索する。
+ </summary>
+ <param name="request">ヘッダー部分</param>
+ <returns>リスト</returns>
+</member>
+<member name="M:Services.MessageInfoDto.UpdateMessage(System.String,System.String)">
+ <summary>
+ Update message info
+ </summary>
+ <param name="message">string</param>
+ <param name="focus">element focus</param>
+</member>
+<member name="M:Services.ITPL04020Service.ValidateSearchCondition(System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+ <summary>
+ 検索時エラーチェック
+ </summary>
+ <param name="startDate">開始 - Date</param>
+ <param name="endDate">終了- Date</param>
+ <returns>TPL01040ResultDto</returns>
+</member>
+<member name="M:Services.ITPL04020Service.SearchOrderPagedList(Dao.PaginationRequestDto{Dao.SearchOrderParamDto})">
+ <summary>
+ 受注検索処理
+ </summary>
+ <param name="request">PaginationRequestDto(Of SearchOrderParamDto)</param>
+ <returns>PanigationResultDto(Of SearchOrderResultDto)</returns>
+</member>
+<member name="M:Services.ITPL04020Service.GetBtnControlArray">
+ <summary>
+ 6.Form_Load時仕様 -2. ボタン制御情報を取得する。
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Services.ITPL04020Service.ExportDataCSV(Dao.SearchOrderParamDto,System.String,System.String)">
+ <summary>
+ CSV出力ボタンクリック時
+ </summary>
+ <param name="paramSearch">SearchOrderParamDto</param>
+ <param name="loginId">User Login Id</param>
+ <param name="ipAddr">User IP Address</param>
+ <returns>StringBuilder Data csv</returns>
+</member>
+</members>
+</doc>

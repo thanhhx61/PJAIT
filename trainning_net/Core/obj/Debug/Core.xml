@@ -1,0 +1,3099 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Core
+</name>
+</assembly>
+<members>
+<member name="T:Core.My.Resources.ValidationResource">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.Consts">
+<summary>
+  Looks up a localized string similar to Imports System.Reflection
+Imports System.Web
+
+Namespace ConstantCore
+    &apos;&apos;&apos; &lt;summary&gt;
+    &apos;&apos;&apos; 共通番号
+    &apos;&apos;&apos; &lt;/summary&gt;
+    Public Module Consts
+        &apos;&apos;&apos; &lt;summary&gt;
+        &apos;&apos;&apos; セッションキークラス
+        &apos;&apos;&apos; &lt;/summary&gt;
+        Public Class SessionKey
+            Public Shared LOGIN_INFO As String = &quot;LoginInfo_new&quot;
+        End Class
+
+        &apos;&apos;&apos; &lt;summary&gt;
+        &apos;&apos;&apos; 画面ID
+        &apos;&apos;&apos; &lt;/summary&gt;
+        Public Class ScreenId
+            &apos;&apos;&apos; &lt;summary&gt;
+            &apos;&apos;&apos; ログイン画面
+            &apos;&apos;&apos; &lt;/summ [rest of string was truncated]&quot;;.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_001">
+<summary>
+  Looks up a localized string similar to {0}を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_002">
+<summary>
+  Looks up a localized string similar to {0}に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_003">
+<summary>
+  Looks up a localized string similar to {0}を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_004">
+<summary>
+  Looks up a localized string similar to {0}を削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_005">
+<summary>
+  Looks up a localized string similar to {0}を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_006">
+<summary>
+  Looks up a localized string similar to {0}を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_007">
+<summary>
+  Looks up a localized string similar to データ更新処理で例外が発生しました。&lt;br /&gt;再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_008">
+<summary>
+  Looks up a localized string similar to 他のユーザーに更新されました。&lt;br /&gt;画面を閉じ、再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_009">
+<summary>
+  Looks up a localized string similar to 検索できる日付は{0}以内です。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_010">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った{0}がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_011">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った{0}CSVを出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_012">
+<summary>
+  Looks up a localized string similar to 対象行を選択してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_013">
+<summary>
+  Looks up a localized string similar to 対象行は1行まで選択できます。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_014">
+<summary>
+  Looks up a localized string similar to {0}を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_015">
+<summary>
+  Looks up a localized string similar to {0}処理を実行します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_016">
+<summary>
+  Looks up a localized string similar to {0}処理が完了しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_017">
+<summary>
+  Looks up a localized string similar to 対象の{0}において、{1}処理が実行されているため、&lt;br /&gt;{2}は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_018">
+<summary>
+  Looks up a localized string similar to ユーザーIDを入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_019">
+<summary>
+  Looks up a localized string similar to パスワードを入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_020">
+<summary>
+  Looks up a localized string similar to ユーザーIDまたはパスワードに誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_021">
+<summary>
+  Looks up a localized string similar to システムを利用できないユーザーです。&lt;br /&gt;
+管理者に問合せしてください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_022">
+<summary>
+  Looks up a localized string similar to 取引不可の得意先は選択できません。&lt;br /&gt;
+管理者に問合せしてください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_023">
+<summary>
+  Looks up a localized string similar to 他のユーザーに更新されました。&lt;br /&gt;
+画面を閉じ、再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_024">
+<summary>
+  Looks up a localized string similar to 売上が入力済みのため、内外区分に未定は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_025">
+<summary>
+  Looks up a localized string similar to 売上金額より小さい受注金額は入力できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_026">
+<summary>
+  Looks up a localized string similar to 発注日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_027">
+<summary>
+  Looks up a localized string similar to 開始と終了の大小関係に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_028">
+<summary>
+  Looks up a localized string similar to 検索できる日付は12か月以内です。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_029">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った外注発注情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_030">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った支払予定明細書情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_031">
+<summary>
+  Looks up a localized string similar to 支払予定明細書を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_032">
+<summary>
+  Looks up a localized string similar to 買掛締処理が行われていないため、帳票出力できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_033">
+<summary>
+  Looks up a localized string similar to 買掛金集計表を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_034">
+<summary>
+  Looks up a localized string similar to 売掛締処理が行われていないため、帳票出力できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_035">
+<summary>
+  Looks up a localized string similar to 売掛金元帳を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_036">
+<summary>
+  Looks up a localized string similar to 工程(制作)の作業に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_037">
+<summary>
+  Looks up a localized string similar to 工程(制作)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・作業・数量・単価・金額).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_038">
+<summary>
+  Looks up a localized string similar to 工程(製版・デジタル印刷)の作業に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_039">
+<summary>
+  Looks up a localized string similar to 工程(製版・デジタル印刷)の部品に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_040">
+<summary>
+  Looks up a localized string similar to 工程(製版・デジタル印刷)の必須項目が未入力の行があります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_041">
+<summary>
+  Looks up a localized string similar to 工程(刷版)の部品に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_042">
+<summary>
+  Looks up a localized string similar to 工程(刷版)の作業に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_043">
+<summary>
+  Looks up a localized string similar to 工程(刷版)のサイズに誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_044">
+<summary>
+  Looks up a localized string similar to 工程(刷版)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・部品・頁数・作業・サイズ・面付・&lt;br /&gt;
+ 台数・単価・金額).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_045">
+<summary>
+  Looks up a localized string similar to 工程(印刷)の機種に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_046">
+<summary>
+  Looks up a localized string similar to 工程(印刷)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・機種・通し数・計算区分・単価・金額).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_047">
+<summary>
+  Looks up a localized string similar to 工程(加工)の作業に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_048">
+<summary>
+  Looks up a localized string similar to 工程(加工)のサイズに誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_049">
+<summary>
+  Looks up a localized string similar to 工程(加工)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・作業・サイズ・数量・単価・金額).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_050">
+<summary>
+  Looks up a localized string similar to 工程(用紙)の部品に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_051">
+<summary>
+  Looks up a localized string similar to 工程(用紙)の銘柄に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_052">
+<summary>
+  Looks up a localized string similar to 工程(用紙)の必須項目が未入力の行があります。&lt;br /&gt;
+(当/先・部品・銘柄・規格・縦・横・&lt;br /&gt;
+ R/S・連量・単位区分・数量・数量合計・単価・金額).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_053">
+<summary>
+  Looks up a localized string similar to 工程(その他)の作業に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_054">
+<summary>
+  Looks up a localized string similar to 工程(その他)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・作業・数量・単価・金額).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_055">
+<summary>
+  Looks up a localized string similar to 工程(製版・デジタル印刷)で選択できる部品は工程(刷版)と&lt;br /&gt;
+同じでなければなりません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_056">
+<summary>
+  Looks up a localized string similar to 工程(加工)で選択できる部品は工程(刷版)と同じでなければなりません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_057">
+<summary>
+  Looks up a localized string similar to 品名を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_058">
+<summary>
+  Looks up a localized string similar to 得意先を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_059">
+<summary>
+  Looks up a localized string similar to 担当を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_060">
+<summary>
+  Looks up a localized string similar to 受注日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_061">
+<summary>
+  Looks up a localized string similar to 納品日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_062">
+<summary>
+  Looks up a localized string similar to 受注金額を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_063">
+<summary>
+  Looks up a localized string similar to 得意先に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_064">
+<summary>
+  Looks up a localized string similar to 担当に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_065">
+<summary>
+  Looks up a localized string similar to 受注日と納品日の大小関係に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_066">
+<summary>
+  Looks up a localized string similar to 受注日と検収日の大小関係に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_067">
+<summary>
+  Looks up a localized string similar to 製品サイズ(縦・横)を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_068">
+<summary>
+  Looks up a localized string similar to 受注金額と明細金額が一致していません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_069">
+<summary>
+  Looks up a localized string similar to 受注金額の桁数を超過しています。(9桁).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_070">
+<summary>
+  Looks up a localized string similar to 明細金額の桁数を超過しています。(9桁).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_071">
+<summary>
+  Looks up a localized string similar to 明細仕切金額の桁数を超過しています。(9桁).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_072">
+<summary>
+  Looks up a localized string similar to 対象日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_073">
+<summary>
+  Looks up a localized string similar to 発注担当を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_074">
+<summary>
+  Looks up a localized string similar to 発注先を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_075">
+<summary>
+  Looks up a localized string similar to 納期を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_076">
+<summary>
+  Looks up a localized string similar to 発注担当に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_077">
+<summary>
+  Looks up a localized string similar to 発注先に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_078">
+<summary>
+  Looks up a localized string similar to 納入先に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_079">
+<summary>
+  Looks up a localized string similar to 納期時刻はHHMM形式で入力してください。&lt;br /&gt;
+例. 12:30の場合、1230.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_080">
+<summary>
+  Looks up a localized string similar to 外注発注の明細を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_081">
+<summary>
+  Looks up a localized string similar to 作業を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_082">
+<summary>
+  Looks up a localized string similar to 作業名を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_083">
+<summary>
+  Looks up a localized string similar to 発注金額を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_084">
+<summary>
+  Looks up a localized string similar to 合計金額は999,999,999を超えることはできません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_085">
+<summary>
+  Looks up a localized string similar to 取引不可の発注先は選択できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_086">
+<summary>
+  Looks up a localized string similar to 取引不可の納入先は選択できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_087">
+<summary>
+  Looks up a localized string similar to 外注発注書を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_088">
+<summary>
+  Looks up a localized string similar to 同じコードのデータが既に存在しています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_089">
+<summary>
+  Looks up a localized string similar to コードの桁数は{0}桁で入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_090">
+<summary>
+  Looks up a localized string similar to 外注発注情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_091">
+<summary>
+  Looks up a localized string similar to 仕入が完了した外注発注のため、外注発注情報を更新できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_092">
+<summary>
+  Looks up a localized string similar to 外注発注情報を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_093">
+<summary>
+  Looks up a localized string similar to 対象の外注発注において、仕入情報が既に登録されているため、&lt;br /&gt;
+外注発注登録は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_094">
+<summary>
+  Looks up a localized string similar to 外注発注情報を削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_095">
+<summary>
+  Looks up a localized string similar to 外注発注情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_096">
+<summary>
+  Looks up a localized string similar to コード情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_097">
+<summary>
+  Looks up a localized string similar to このコードは変更不可のコードのため、削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_098">
+<summary>
+  Looks up a localized string similar to コード情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_099">
+<summary>
+  Looks up a localized string similar to 入力内容を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_100">
+<summary>
+  Looks up a localized string similar to 用紙発注の明細を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_101">
+<summary>
+  Looks up a localized string similar to 対象の用紙発注において、仕入情報が既に登録されているため、&lt;br /&gt;
+用紙発注登録は変更できません。&lt;br /&gt;
+仕入情報を削除してから再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_102">
+<summary>
+  Looks up a localized string similar to 銘柄を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_103">
+<summary>
+  Looks up a localized string similar to 連量を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_104">
+<summary>
+  Looks up a localized string similar to 厚さを入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_105">
+<summary>
+  Looks up a localized string similar to 数量を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_106">
+<summary>
+  Looks up a localized string similar to 単価を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_107">
+<summary>
+  Looks up a localized string similar to 金額を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_108">
+<summary>
+  Looks up a localized string similar to 倉庫を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_109">
+<summary>
+  Looks up a localized string similar to 銘柄に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_110">
+<summary>
+  Looks up a localized string similar to 断数を選択してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_111">
+<summary>
+  Looks up a localized string similar to 寸法(縦横)を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_112">
+<summary>
+  Looks up a localized string similar to 数量は999,999,999.999を超えることはできません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_113">
+<summary>
+  Looks up a localized string similar to 搬入時刻はHHMM形式で入力してください。&lt;br /&gt;
+例. 12:30の場合、1230.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_114">
+<summary>
+  Looks up a localized string similar to 選択した規格がコードマスタに存在しない　または　マスタの内容に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_115">
+<summary>
+  Looks up a localized string similar to 仕入日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_116">
+<summary>
+  Looks up a localized string similar to 外注仕入の明細を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_117">
+<summary>
+  Looks up a localized string similar to 税率を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_118">
+<summary>
+  Looks up a localized string similar to 外注発注金額を超える外注仕入登録はできません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_119">
+<summary>
+  Looks up a localized string similar to 外注仕入情報を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_120">
+<summary>
+  Looks up a localized string similar to 外注仕入情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_121">
+<summary>
+  Looks up a localized string similar to 外注仕入情報を削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_122">
+<summary>
+  Looks up a localized string similar to 外注仕入情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_123">
+<summary>
+  Looks up a localized string similar to 対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;
+外注仕入情報は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_124">
+<summary>
+  Looks up a localized string similar to 対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;
+外注仕入情報は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_125">
+<summary>
+  Looks up a localized string similar to 対象の外注発注が削除されています。&lt;br /&gt;
+再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_126">
+<summary>
+  Looks up a localized string similar to 該当の得意先は準備処理が完了しています。&lt;br /&gt;
+再度準備処理を行う場合、該当の得意先の準備処理を&lt;br /&gt;
+解除してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_127">
+<summary>
+  Looks up a localized string similar to 該当の得意先は準備処理が完了していないため、&apos;解除ができません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_128">
+<summary>
+  Looks up a localized string similar to 入力した請求締日が存在しません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_129">
+<summary>
+  Looks up a localized string similar to 請求締処理が未処理の締日の場合、帳票は出力できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_130">
+<summary>
+  Looks up a localized string similar to データが取得できませんでした。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_131">
+<summary>
+  Looks up a localized string similar to 用紙発注情報を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_132">
+<summary>
+  Looks up a localized string similar to 用紙発注情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_133">
+<summary>
+  Looks up a localized string similar to 対象の支払日において、買掛締処理が実行されているため、&lt;br /&gt;支払情報は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_134">
+<summary>
+  Looks up a localized string similar to 用紙発注情報を削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_135">
+<summary>
+  Looks up a localized string similar to 用紙発注情報をボディ部に反映します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_136">
+<summary>
+  Looks up a localized string similar to ボディ部に反映しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_137">
+<summary>
+  Looks up a localized string similar to 用紙発注情報をボディ部から削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_138">
+<summary>
+  Looks up a localized string similar to 用紙発注情報の明細を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_139">
+<summary>
+  Looks up a localized string similar to 入力内容をクリアしてよろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_140">
+<summary>
+  Looks up a localized string similar to 用紙発注情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_141">
+<summary>
+  Looks up a localized string similar to 該当の得意先はすでに登録されています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_142">
+<summary>
+  Looks up a localized string similar to 該当の得意先は、締め日が異なるため、追加できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_143">
+<summary>
+  Looks up a localized string similar to 選択した得意先を明細から削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_144">
+<summary>
+  Looks up a localized string similar to 請求締準備処理が{0}しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_145">
+<summary>
+  Looks up a localized string similar to 入力した取引先が存在しません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_146">
+<summary>
+  Looks up a localized string similar to {0}はハイフン(-)を含めて入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_147">
+<summary>
+  Looks up a localized string similar to {0}に入力できる数値は01～31です。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_148">
+<summary>
+  Looks up a localized string similar to 同じ名称・支店名・略称のデータが既に存在しています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_149">
+<summary>
+  Looks up a localized string similar to 売掛締処理 - 締処理が完了しました。&lt;br /&gt; 売掛締月を翌月に繰越しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_150">
+<summary>
+  Looks up a localized string similar to 売掛締処理 - 準備解除処理が完了しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_151">
+<summary>
+  Looks up a localized string similar to 売掛締処理 - 準備処理が完了しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_152">
+<summary>
+  Looks up a localized string similar to 締月は準備処理が完了しています。&lt;br /&gt; 再度準備処理を行う場合、準備処理を解除してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_153">
+<summary>
+  Looks up a localized string similar to 締月は準備処理が完了していません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_154">
+<summary>
+  Looks up a localized string similar to 締月は準備処理が完了していません。&lt;br /&gt; 準備処理が完了してから、締処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_155">
+<summary>
+  Looks up a localized string similar to 用紙仕入対象の行がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_156">
+<summary>
+  Looks up a localized string similar to 対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;用紙仕入情報は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_157">
+<summary>
+  Looks up a localized string similar to 対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;用紙仕入情報は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_158">
+<summary>
+  Looks up a localized string similar to 対象の用紙発注が削除されています。&lt;br /&gt;再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_159">
+<summary>
+  Looks up a localized string similar to 仕入先を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_160">
+<summary>
+  Looks up a localized string similar to 支払日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_161">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った支払情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_162">
+<summary>
+  Looks up a localized string similar to 支払情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_163">
+<summary>
+  Looks up a localized string similar to 入力内容を削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_164">
+<summary>
+  Looks up a localized string similar to 支払情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_165">
+<summary>
+  Looks up a localized string similar to 発注先が2つ以上選択されています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_166">
+<summary>
+  Looks up a localized string similar to 対象の入金日において、{0}処理が実行されているため、&lt;br /&gt; 入金情報は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_167">
+<summary>
+  Looks up a localized string similar to 入金情報を{0}しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_168">
+<summary>
+  Looks up a localized string similar to 選択した発注の用紙仕入登録を行います。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_169">
+<summary>
+  Looks up a localized string similar to このコードは変更不可のコードのため、更新できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_170">
+<summary>
+  Looks up a localized string similar to 発注日または仕入日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_171">
+<summary>
+  Looks up a localized string similar to 検索条件で発注先が未指定のため、納入依頼書を出力できません。&lt;br /&gt;
+検索条件で発注先を指定して再検索してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_172">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った外注仕入情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_173">
+<summary>
+  Looks up a localized string similar to 該当の仕入先は準備処理が完了しています。&lt;br /&gt;再度準備処理を行う場合、該当の仕入先の準備処理を解除してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_174">
+<summary>
+  Looks up a localized string similar to 該当の仕入先は準備処理が完了していないため、解除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_175">
+<summary>
+  Looks up a localized string similar to 検索条件で倉庫が未指定のため、納入予定表を出力できません。&lt;br/&gt;検索条件で倉庫を指定して再検索してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_176">
+<summary>
+  Looks up a localized string similar to 該当の締日は準備処理が完了していないため、解除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_177">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った用紙仕入情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_178">
+<summary>
+  Looks up a localized string similar to 同じ銘柄名・品種・メーカーのデータが既に存在しています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_179">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った用紙発注情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_180">
+<summary>
+  Looks up a localized string similar to 用紙情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_181">
+<summary>
+  Looks up a localized string similar to 用紙情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_182">
+<summary>
+  Looks up a localized string similar to 一括仕入できる行数は最大100行です。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_183">
+<summary>
+  Looks up a localized string similar to 選択した発注の納入依頼書を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_184">
+<summary>
+  Looks up a localized string similar to 選択した発注の納入予定表を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_185">
+<summary>
+  Looks up a localized string similar to 得意先と受注担当のいずれかを入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_186">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った売上情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_187">
+<summary>
+  Looks up a localized string similar to スケジュール登録画面を起動する前に受注情報を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_188">
+<summary>
+  Looks up a localized string similar to 受注情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_189">
+<summary>
+  Looks up a localized string similar to データ更新処理で例外が発生しました。&lt;br /&gt;再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_190">
+<summary>
+  Looks up a localized string similar to 受注情報を登録します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_191">
+<summary>
+  Looks up a localized string similar to 受注情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_192">
+<summary>
+  Looks up a localized string similar to 完納済みの受注のため、受注情報を更新できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_193">
+<summary>
+  Looks up a localized string similar to 他のユーザーに更新されました。&lt;br /&gt; 画面を閉じ、再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_194">
+<summary>
+  Looks up a localized string similar to 受注に対する発注が入力済みのため、&lt;br /&gt; 受注情報は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_195">
+<summary>
+  Looks up a localized string similar to 受注に対する売上が入力済みのため、&lt;br /&gt; 受注情報は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_196">
+<summary>
+  Looks up a localized string similar to 受注情報を削除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_197">
+<summary>
+  Looks up a localized string similar to 受注伝票を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_198">
+<summary>
+  Looks up a localized string similar to 検索条件に沿った受注情報がありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_199">
+<summary>
+  Looks up a localized string similar to {0}を出力します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_200">
+<summary>
+  Looks up a localized string similar to 通し数の大小関係に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_201">
+<summary>
+  Looks up a localized string similar to 同じ原価単価情報が既に登録されています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_202">
+<summary>
+  Looks up a localized string similar to 該当の得意先の締日は{0}処理が完了しているため、{1}できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_203">
+<summary>
+  Looks up a localized string similar to 選択した得意先を明細から削除しますか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_204">
+<summary>
+  Looks up a localized string similar to 売上を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_205">
+<summary>
+  Looks up a localized string similar to 受注金額を超えた売上金額は入力できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_206">
+<summary>
+  Looks up a localized string similar to 内訳は5つまで入力できます。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_207">
+<summary>
+  Looks up a localized string similar to 対象の請求日において、請求締処理が実行されているため、&lt;br /&gt;売上情報は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_208">
+<summary>
+  Looks up a localized string similar to 対象の売上日において、売掛締処理が実行されているため、&lt;br /&gt;売上情報は登録できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_209">
+<summary>
+  Looks up a localized string similar to 売上情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_210">
+<summary>
+  Looks up a localized string similar to 該当の締日は準備処理が完了しています。&lt;br /&gt; 再度準備処理を行う場合、準備処理を解除してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_211">
+<summary>
+  Looks up a localized string similar to 該当の締日は準備処理が完了していません。&lt;br /&gt; 準備処理が完了してから、締処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_212">
+<summary>
+  Looks up a localized string similar to 該当の締日は準備処理が完了しています。&lt;br /&gt; 再度準備処理を行う場合、該当の得意先の準備処理を解除してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_213">
+<summary>
+  Looks up a localized string similar to 請求締準備処理を実行します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_214">
+<summary>
+  Looks up a localized string similar to 取引区分を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_215">
+<summary>
+  Looks up a localized string similar to 支払金額を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_216">
+<summary>
+  Looks up a localized string similar to 手形内訳に誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_217">
+<summary>
+  Looks up a localized string similar to 手形期日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_218">
+<summary>
+  Looks up a localized string similar to 請求締準備処理を解除します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_219">
+<summary>
+  Looks up a localized string similar to 該当の得意先は準備処理が完了していないため、解除ができません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_220">
+<summary>
+  Looks up a localized string similar to 該当の締日は準備処理が完了しているため、削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_221">
+<summary>
+  Looks up a localized string similar to 売上内訳情報を削除しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_222">
+<summary>
+  Looks up a localized string similar to 売上金額は999,999,999を超えることはできません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_223">
+<summary>
+  Looks up a localized string similar to 合計は999,999,999を超えることはできません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_224">
+<summary>
+  Looks up a localized string similar to 売上金額と内訳の合計金額が不一致です。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_225">
+<summary>
+  Looks up a localized string similar to 更新対象のデータがありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_226">
+<summary>
+  Looks up a localized string similar to 他のユーザーによって請求締処理または請求締解除処理が実行されました。&lt;br /&gt; 画面を閉じ、再度処理を実行してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_227">
+<summary>
+  Looks up a localized string similar to 売上情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_228">
+<summary>
+  Looks up a localized string similar to 取込ファイルが未選択です。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_229">
+<summary>
+  Looks up a localized string similar to ファイル形式に誤りがあります。CSVファイルのみ取込できます。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_230">
+<summary>
+  Looks up a localized string similar to CSVの文字コードにSJIS以外が指定されています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_231">
+<summary>
+  Looks up a localized string similar to レコードの項目数が4以外の行があります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_232">
+<summary>
+  Looks up a localized string similar to 取込対象のレコードがありません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_233">
+<summary>
+  Looks up a localized string similar to CSVファイル内に重複した受注番号が存在します。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_234">
+<summary>
+  Looks up a localized string similar to 1列目：受注番号を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_235">
+<summary>
+  Looks up a localized string similar to 2列目：工程を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_236">
+<summary>
+  Looks up a localized string similar to 3列目：原価区分を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_237">
+<summary>
+  Looks up a localized string similar to 4列目：原価を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_238">
+<summary>
+  Looks up a localized string similar to 指定した原価に数値以外の値が入力されています。({0}行).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_239">
+<summary>
+  Looks up a localized string similar to 存在しない受注番号が指定されています。({0}行).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_240">
+<summary>
+  Looks up a localized string similar to 指定した工程に誤りがあります。({0}行).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_241">
+<summary>
+  Looks up a localized string similar to 指定した原価区分に誤りがあります。({0}行).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_242">
+<summary>
+  Looks up a localized string similar to 受注番号：{0}の製造原価がマイナスとなりました。&lt;br /&gt; 
+取込できません。({1}行).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_243">
+<summary>
+  Looks up a localized string similar to 受注番号：{0}の製造原価が999,999,999を&lt;br /&gt; 
+超えたため、取込できません。({1}行).
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_244">
+<summary>
+  Looks up a localized string similar to 原価データを取込します。よろしいですか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_245">
+<summary>
+  Looks up a localized string similar to 原価データ取込が完了しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_246">
+<summary>
+  Looks up a localized string similar to 請求書編集の明細は25明細まで入力できます。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_247">
+<summary>
+  Looks up a localized string similar to 内訳を選択した場合は、売上金額を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_248">
+<summary>
+  Looks up a localized string similar to 内訳を選択してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_249">
+<summary>
+  Looks up a localized string similar to 内訳・品名・売上金額を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_250">
+<summary>
+  Looks up a localized string similar to 請求情報が全て印字しないになっています。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_251">
+<summary>
+  Looks up a localized string similar to 請求金額と明細合計金額が一致していません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_252">
+<summary>
+  Looks up a localized string similar to {0}が存在する行は削除できません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_253">
+<summary>
+  Looks up a localized string similar to 入力内容をボディ部から削除しますか？.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_254">
+<summary>
+  Looks up a localized string similar to 請求書編集情報を登録しました。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_255">
+<summary>
+  Looks up a localized string similar to 作業コードに誤りがあります。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_256">
+<summary>
+  Looks up a localized string similar to 指定した請求書番号の請求書が存在しません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_257">
+<summary>
+  Looks up a localized string similar to 売上日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_258">
+<summary>
+  Looks up a localized string similar to 既に削除された発注情報です。外注発注検索画面でデータの再検索を行ってください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_259">
+<summary>
+  Looks up a localized string similar to 既に削除された受注情報です。受注検索画面でデータの再検索を行ってください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_260">
+<summary>
+  Looks up a localized string similar to 既に削除された受注情報です。外注発注検索画面でデータの再検索を行ってください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_261">
+<summary>
+  Looks up a localized string similar to 既に削除された仕入情報です。外注仕入検索画面でデータの再検索を行ってください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_262">
+<summary>
+  Looks up a localized string similar to 既に削除された発注情報です。用紙発注検索画面でデータの再検索を行ってください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_263">
+<summary>
+  Looks up a localized string similar to 既に削除された仕入情報です。用紙仕入検索画面でデータの再検索を行ってください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_264">
+<summary>
+  Looks up a localized string similar to 搬入日を入力してください。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_265">
+<summary>
+  Looks up a localized string similar to 金額は999,999,999を超えることはできません。.
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_266">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_267">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_268">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_269">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="P:Core.My.Resources.ValidationResource.MSG_270">
+<summary>
+  Looks up a localized string similar to .
+</summary>
+</member>
+<member name="T:Core.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Core.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Core.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Core.ConstantCore.Consts">
+ <summary>
+ 共通番号
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.SessionKey">
+ <summary>
+ セッションキークラス
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.ScreenId">
+ <summary>
+ 画面ID
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ScreenId.TPL00010">
+ <summary>
+ ログイン画面
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ScreenId.TPL00020">
+ <summary>
+ メニュー画面
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ScreenId.TPL02050P">
+ <summary>
+ 外注発注書
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.MimeType">
+ <summary>
+ コンテンツ形式
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.NumberFormat">
+ <summary>
+ 数変換フォーマットクラス
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.NumberFormat.FORMAT_NUMBER">
+ <summary>
+ 999,999,999
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.NumberFormat.FORMAT_NUMBER_1_DECIMAL">
+ <summary>
+ 9,999,999.9
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.NumberFormat.FORMAT_NUMBER_3_DECIMAL">
+ <summary>
+ 9,999,999.9999
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.DateFormat">
+ <summary>
+ 日付変換フォーマットクラス
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.SysdateFormat">
+ <summary>
+ システム日付の形式
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.FolderName">
+ <summary>
+ 出力先フォルダ名
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.RegexType">
+ <summary>
+ 正規表現
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.RegexType.HANKAKU_KANA_PTTERN">
+ <summary>
+ 半角カナのコード範囲をCONST
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COMMON_CODE">
+ <summary>
+ 共通番号のコード
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.COMMON_NO">
+ <summary>
+ 共通番号
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.DEAL_STATUS">
+ <summary>
+ 取引状況 (1001)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_STATUS.DURING_TRADING">
+ <summary>
+ 取引中
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_STATUS.NOT_TRADEABLE">
+ <summary>
+ 取引不可
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.COLLECTION_MONTH">
+ <summary>
+ 回収月 (1002)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COLLECTION_MONTH.CURR_MONTH">
+ <summary>
+ 当月
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COLLECTION_MONTH.NEXT_MONTH">
+ <summary>
+ 翌月
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COLLECTION_MONTH.AFTER_NEXT_MONTH">
+ <summary>
+ 翌々月
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COLLECTION_MONTH.THREE_MONTH_LATER">
+ <summary>
+ 3カ月後
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PAYMENT_MONTH">
+ <summary>
+ 支払月 (1003)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAYMENT_MONTH.CURR_MONTH">
+ <summary>
+ 当月
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAYMENT_MONTH.NEXT_MONTH">
+ <summary>
+ 翌月
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAYMENT_MONTH.AFTER_NEXT_MONTH">
+ <summary>
+ 翌々月
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAYMENT_MONTH.THREE_MONTH_LATER">
+ <summary>
+ 3カ月後
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TAX">
+ <summary>
+ 消費税処理 (1004)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX.DETAIL_UNIT">
+ <summary>
+ 明細単位
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX.BILLING_UNIT">
+ <summary>
+ 請求単位
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TAX_FRACTION">
+ <summary>
+ 端数処理区分 (1005)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_FRACTION.ROUND">
+ <summary>
+ 四捨五入
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_FRACTION.ROUND_DOWN">
+ <summary>
+ 切捨て
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_FRACTION.ROUND_UP">
+ <summary>
+ 切上げ
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.LOCATION">
+ <summary>
+ 地区 (1006)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.LOCATION.KANTO">
+ <summary>
+ 関東
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.LOCATION.KANSAI">
+ <summary>
+ 関西
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.LOCATION.TOKAI">
+ <summary>
+ 東海
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.INDUSTRY">
+ <summary>
+ 業種 (1007)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.INDUSTRY.UN_SPECIFIED">
+ <summary>
+ 指定なし
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.INDUSTRY.SPECIFIED">
+ <summary>
+ 指定あり
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PURCHASING_FORMAT">
+ <summary>
+ 仕入業態 (1008)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PURCHASING_FORMAT.NORMAL_PAY">
+ <summary>
+ 通常支払
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PURCHASING_FORMAT.FOREIGN_TAX">
+ <summary>
+ 外税源泉あり
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PURCHASING_FORMAT.TAX">
+ <summary>
+ 内税源泉あり
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PURCHASING_FORMAT.NON_FOREIGN_TAX">
+ <summary>
+ 払なし外税
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PURCHASING_FORMAT.NON_TAX">
+ <summary>
+ 払なし内税
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.DEPARTMENT">
+ <summary>
+ 部署 (1009)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEPARTMENT.DEPARTMENT_A">
+ <summary>
+ 部署A
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEPARTMENT.DEPARTMENT_B">
+ <summary>
+ 部署B
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEPARTMENT.DEPARTMENT_C">
+ <summary>
+ 部署C
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.ITEM_TYPE">
+ <summary>
+ 品種 (1010)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.HIGH_QUALITY_FLAT">
+ <summary>
+ 上質(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A1_ART">
+ <summary>
+ A1アート(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A2_GLOS_FLAT">
+ <summary>
+ A2グロス(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A2_MAT_FLAT">
+ <summary>
+ A2マット(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A3_GLOS_FLAT">
+ <summary>
+ A3グロス(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A3_MAT_FLAT">
+ <summary>
+ A3マット(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.PAPER_BOARD">
+ <summary>
+ 板紙(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.OTHER_FLAT">
+ <summary>
+ その他(平)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.HIGH_QUALITY">
+ <summary>
+ 上質(巻)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A2_GLOS">
+ <summary>
+ A2グロス(巻)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A2_MAT">
+ <summary>
+ A2マット(巻)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A3_GLOS">
+ <summary>
+ A3グロス(巻)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.A3_MAT">
+ <summary>
+ A3マット(巻)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.FINE_COATING">
+ <summary>
+ 微塗工(巻)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ITEM_TYPE.OTHER">
+ <summary>
+ その他(巻)
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.MAKER">
+ <summary>
+ メーカー (1011)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.PRINCE_PAPER">
+ <summary>
+ 王子製紙
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.NIPPON_PAPAER">
+ <summary>
+ 日本製紙
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.DAIO_PAPER">
+ <summary>
+ 大王製紙
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.MITSUBISHI_PAPER">
+ <summary>
+ 三菱製紙
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.CHUETSU_PULP_PAPAER">
+ <summary>
+ 中越パルプ工業
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.IMPORT_PAPER">
+ <summary>
+ 輸入紙
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.TAKEO">
+ <summary>
+ 竹尾
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.OTHER">
+ <summary>
+ その他
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MAKER.NOT_SPECIFIED">
+ <summary>
+ 指定無し
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.APPLY_TYPE">
+ <summary>
+ 適用区分 (1012)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.APPLY_TYPE.A">
+ <summary>
+ A
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.APPLY_TYPE.B">
+ <summary>
+ B
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.APPLY_TYPE.C">
+ <summary>
+ C
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PROCESS">
+ <summary>
+ 工程 (1013)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0001">
+ <summary>
+ 制作
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0002">
+ <summary>
+ 製版・デジタル印刷
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0003">
+ <summary>
+ 刷版
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0004">
+ <summary>
+ 印刷
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0005">
+ <summary>
+ 加工
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0006">
+ <summary>
+ 用紙
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS.TASK_0007">
+ <summary>
+ その他
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TASK_PRODUCTION">
+ <summary>
+ 作業(制作) (1014)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.PLANNING">
+ <summary>
+ 企画立案
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.RESEARCH">
+ <summary>
+ 調査
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DOCUMENT">
+ <summary>
+ 資料
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.COPYRIGHT">
+ <summary>
+ コピーライト
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.COVERAGE">
+ <summary>
+ 取材
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.PROC_MANAGER">
+ <summary>
+ 進行管理(AD・PD)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DESIGN_DIFFICUL_A">
+ <summary>
+ デザイン　難易度A
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DESIGN_DIFFICUL_B">
+ <summary>
+ デザイン　難易度B
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DESIGN_DIFFICUL_C">
+ <summary>
+ デザイン　難易度C
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DTP_DIFFICUL_A">
+ <summary>
+ DTP　難易度A
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DTP_DIFFICUL_B">
+ <summary>
+ DTP　難易度B
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DTP_DIFFICUL_C">
+ <summary>
+ DTP　難易度C
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.RIP_PROC">
+ <summary>
+ RiP処理
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.WEB_PRODUCT">
+ <summary>
+ WEB制作
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.ILLUSTRATION">
+ <summary>
+ イラスト
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DRAW_TRACE">
+ <summary>
+ 図面トレース(MAP等)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.REESE_PHOTO">
+ <summary>
+ リースフォト
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.IMAGE_SHOT">
+ <summary>
+ イメージ撮影
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.SINGLE_SHOT">
+ <summary>
+ 単品撮影
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.MODEL">
+ <summary>
+ モデル
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.PROPS">
+ <summary>
+ 小道具
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.HAIR_MAKE">
+ <summary>
+ ヘアメイク
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.STYLING">
+ <summary>
+ スタイリング
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.IMAGE_FIX">
+ <summary>
+ 画像修正
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.PROGRAM">
+ <summary>
+ プログラム
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DATA_PROC">
+ <summary>
+ データ処理
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.PROOF">
+ <summary>
+ 校正
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.TRAIL_PRODUCT">
+ <summary>
+ 試作
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.OUTPUT_FEE">
+ <summary>
+ 出力費
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.DISPATCH_FEE">
+ <summary>
+ 派遣代
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.PS_BUSINESS_EXP">
+ <summary>
+ PS出張費
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRODUCTION.LOCA_BUSINESS_EXP">
+ <summary>
+ ロケ出張費
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TASK_PLATE_MAKING">
+ <summary>
+ 作業(製版) (1015)
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TASK_PRINTING_PLATE">
+ <summary>
+ 作業(刷版) (1016)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRINTING_PLATE.CTP">
+ <summary>
+ CTP
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRINTING_PLATE.NO_VERSION_ON_DEMAN">
+ <summary>
+ 版無(ｵﾝﾃﾞﾏﾝﾄﾞ)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRINTING_PLATE.NO_VERSION_INKJET">
+ <summary>
+ 版無(ｲﾝｸｼﾞｪｯﾄ)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_PRINTING_PLATE.SUBCONTRACT_INJECTION">
+ <summary>
+ 外注入稿
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TASK_PROCESSING">
+ <summary>
+ 作業(加工) (1017)
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TASK_ETC">
+ <summary>
+ 作業(その他) (1018)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_ETC.FRAG_ADJUSTMENT">
+ <summary>
+ 端数調整
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_ETC.DELIVERY_FEE">
+ <summary>
+ 配送料
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_ETC.ON_DEMAND">
+ <summary>
+ オンデマンド
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_ETC.PACK_WORK">
+ <summary>
+ 梱包作業
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TASK_ETC.DISCOUNT">
+ <summary>
+ 値引き
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PRODUCT_SIZE">
+ <summary>
+ 製品サイズ (1019)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A0">
+ <summary>
+ A0
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A1">
+ <summary>
+ A1
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A2">
+ <summary>
+ A2
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A3">
+ <summary>
+ A3
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A4">
+ <summary>
+ A4
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A5">
+ <summary>
+ A5
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A6">
+ <summary>
+ A6
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.A7">
+ <summary>
+ A7
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B0">
+ <summary>
+ B0
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B1">
+ <summary>
+ B1
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B2">
+ <summary>
+ B2
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B3">
+ <summary>
+ B3
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B4">
+ <summary>
+ B4
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B5">
+ <summary>
+ B5
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B6">
+ <summary>
+ B6
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.B7">
+ <summary>
+ B7
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.D2">
+ <summary>
+ D2
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.D3">
+ <summary>
+ D3
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.D4">
+ <summary>
+ D4
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.D5">
+ <summary>
+ D5
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_SIZE.NON_STANDARD">
+ <summary>
+ 規格外
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PAPER_SIZE">
+ <summary>
+ 用紙サイズ (1020)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE4_6">
+ <summary>
+ 4/6判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_A">
+ <summary>
+ A判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_AB">
+ <summary>
+ AB判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_B">
+ <summary>
+ B判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_D">
+ <summary>
+ D判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_HATRON">
+ <summary>
+ ﾊﾄﾛﾝ判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_KIKU">
+ <summary>
+ 菊判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_k">
+ <summary>
+ K判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.SIZE_L">
+ <summary>
+ L判
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.READY_ENVELOP">
+ <summary>
+ 既製封筒
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PAPER_SIZE.NON_STANDARD">
+ <summary>
+ 規格外
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.MODEL">
+ <summary>
+ 印刷機種 (1021)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.OFF_WHEEL_AT">
+ <summary>
+ オフ輪AT
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.OFF_WHEEL_BT">
+ <summary>
+ オフ輪BT
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.KIKUHAN_UV">
+ <summary>
+ 菊半UV
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.KIKUZEN_UV">
+ <summary>
+ 菊全UV
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.KIKUZEN_HEIDEL">
+ <summary>
+ 菊全ﾊｲﾃﾞﾙ
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.ON_DEMAND">
+ <summary>
+ オンデマンド
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.INKJET">
+ <summary>
+ ｲﾝｸｼﾞｪｯﾄ
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.SUBCONTRACT_PRINT_MACHINE">
+ <summary>
+ 外注印刷機
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.MODEL.NO_PRINTING">
+ <summary>
+ 印刷無し
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.SLIP_TYPE">
+ <summary>
+ 伝票区分 "1022"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.SLIP_TYPE.GENERRALLY">
+ <summary>
+ 通常
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.SLIP_TYPE.PRESENTATION_FEE">
+ <summary>
+ プレゼン費
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.SLIP_TYPE.COMPANY_USE">
+ <summary>
+ 社用
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.SLIP_TYPE.DEFECTIVE_COST">
+ <summary>
+ 仕損費
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.SLIP_TYPE.INTERNAL_SALES">
+ <summary>
+ 社内売上経費
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.ORDER_TYPE">
+ <summary>
+ 受注区分 "1023"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ORDER_TYPE.NEW_EDITION">
+ <summary>
+ 新版
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ORDER_TYPE.SECOND_EDITION">
+ <summary>
+ 再版
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ORDER_TYPE.REVISION">
+ <summary>
+ 改版
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PRODUCT_TYPE">
+ <summary>
+ 製品種別 = "1024"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PRODUCT_UNIT">
+ <summary>
+ 製品単位 = "1025"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.PART">
+ <summary>
+ 部
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.SHEET">
+ <summary>
+ 枚
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.BOOK">
+ <summary>
+ 冊
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.CHANCE">
+ <summary>
+ 折
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.BOX">
+ <summary>
+ 函
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.BAG">
+ <summary>
+ 袋
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.GROUP">
+ <summary>
+ 組
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.PIECES">
+ <summary>
+ 個
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PRODUCT_UNIT.BUNDLE">
+ <summary>
+ 束
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PAPER_UNIT">
+ <summary>
+ 用紙単位 = "1026"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PARTS">
+ <summary>
+ 部品 = "1027"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.CALC_TYPE">
+ <summary>
+ 計算区分 (1028)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.CALC_TYPE.THREAD">
+ <summary>
+ 通し
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.CALC_TYPE.UNIT_NUM">
+ <summary>
+ 台数
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.OUR_OTHER_TYPE">
+ <summary>
+ 当先区分  = "1029"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.RS_TYPE">
+ <summary>
+ RS区分 = "1030"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.RS_TYPE.S">
+ <summary>
+ S
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.RS_TYPE.R">
+ <summary>
+ R
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.UNIT_TYPE">
+ <summary>
+ 単位区分 = "1031"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.THICKNESS">
+ <summary>
+ 厚さ = "1032"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.VERTICAL_WIDTH">
+ <summary>
+ 流れ目 = "1033"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.VERTICAL_WIDTH.VERTICAL">
+ <summary>
+ 縦目
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.VERTICAL_WIDTH.HORIZONTAL">
+ <summary>
+ 横目
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.CUTTING_COUNT">
+ <summary>
+ 断数 = "1034"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.WAREHOUSE">
+ <summary>
+ 倉庫 = "1035"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.DEAL_PURCHASE">
+ <summary>
+ 取引区分(仕入) = "1036"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.DEAL_SALE">
+ <summary>
+ 取引区分(売上) = "1037"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_SALE.SALE_NORMAL">
+ <summary>
+ 通常売上
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_SALE.SALE_CUSTODY">
+ <summary>
+ 預かり売上
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_SALE.SALE_PROFIT">
+ <summary>
+ 売上返品
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.DEAL_PAYMENT">
+ <summary>
+ 取引区分(支払・入金) = "1038"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.TRANSFER">
+ <summary>
+ 振込
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.CASH">
+ <summary>
+ 現金
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.CHECK">
+ <summary>
+ 小切手
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.BILL">
+ <summary>
+ 手形・でんさい
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.OFFSET">
+ <summary>
+ 相殺
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.SALES_TAX">
+ <summary>
+ 消費税端数
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.TRANSFER_FEE">
+ <summary>
+ 振込手数料
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.DEAL_PAYMENT.OTHERS">
+ <summary>
+ その他
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TAXLATION_TYPE">
+ <summary>
+ 課税区分 = "1039"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAXLATION_TYPE.TAXATION">
+ <summary>
+ 課税
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAXLATION_TYPE.NON_TAXATION">
+ <summary>
+ 非課税
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TAX_RATE">
+ <summary>
+ 税率 = "1040"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_RATE.TAX0_PERCENT">
+ <summary>
+ 0%
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_RATE.TAX3_PERCENT">
+ <summary>
+ 3%
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_RATE.TAX5_PERCENT">
+ <summary>
+ 5%
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_RATE.TAX8_PERCENT">
+ <summary>
+ 8%
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TAX_RATE.TAX10_PERCENT">
+ <summary>
+ 10%
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.BILL_BREAKDOWN">
+ <summary>
+ 手形内訳 = "1041"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.INVOICE_MONTH">
+ <summary>
+ 請求月 = "1042"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.INVOICE_MONTH.THIS_MONTH">
+ <summary>
+ 蠖捺怦
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.INVOICE_MONTH.NEXT_MONTH">
+ <summary>
+ 鄙梧怦
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.INVOICE_MONTH.MONTH_AFTER_NEXT">
+ <summary>
+ 鄙後
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.INVOICE_MONTH.THREE_MONTHS_LATER">
+ <summary>
+ 3繧ｫ譛亥ｾ
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PROFIT_RATE">
+ <summary>
+ 利益率 = "1043"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROFIT_RATE.ORDER">
+ <summary>
+ 受注利益率
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROFIT_RATE.MANUFACTUR">
+ <summary>
+ 製造利益率
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.COST_TYPE">
+ <summary>
+ 原価区分 = "1044"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.IN_OUT_TYPE">
+ <summary>
+ 内外区分 (1045)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.IN_OUT_TYPE.IN_WORK">
+ <summary>
+ 内作
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.IN_OUT_TYPE.OUT_WORK">
+ <summary>
+ 外作
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.IN_OUT_TYPE.UNDECIDED">
+ <summary>
+ 未定
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.CUSTOMER_TYPE">
+ <summary>
+ 取引先区分 = "1046"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.CUSTOMER_TYPE.CUSTOMER">
+ <summary>
+ 得意先
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.CUSTOMER_TYPE.SUPPLIER">
+ <summary>
+ 仕入先
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PROGRAM_ID">
+ <summary> = "1047"
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PROCESS_STATUS">
+ <summary>
+ 処理状況 = "1048"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS_STATUS.UNTREATED">
+ <summary>
+ 未処理
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS_STATUS.READY">
+ <summary>
+ 準備完了
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PROCESS_STATUS.PROCESSED">
+ <summary>
+ 処理済
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.BUTTON_CONTROL">
+ <summary>
+ ボタン制御 = "1049"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.BUTTON_CONTROL.CSV_IN">
+ <summary>
+ 受注登録(CSV取込)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.BUTTON_CONTROL.CSV_OUT">
+ <summary>
+ 受注登録(CSV出力)
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.BUTTON_CONTROL.COST">
+ <summary>
+ 原価登録
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.BUTTON_CONTROL.WORK_INSTRUCTION">
+ <summary>
+ 作業指示書
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.BUTTON_CONTROL.SETTLEMENT_ESTIMATE">
+ <summary>
+ 精算見積書
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.COLOR_CONTROL">
+ <summary>
+ 文字色制御 = "1050"
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COLOR_CONTROL.SUBCONTRACT_ORDER_NO_OUTPUT">
+ <summary>
+ 外注発注未出力
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.COLOR_CONTROL.PAPER_ORDER_NO_OUTPUT">
+ <summary>
+ 用紙発注未出力
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.CSVFile">
+ <summary>
+ CSVの区分
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.FileType">
+ <summary>
+ ファイルの種類
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.StatusInf">
+ <summary>
+ 状態情報
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.CompleteClass">
+ <summary>
+ 完了区分
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.CompleteClass.INCOMPLETE">
+ <summary>
+ 仕入未完了
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.CompleteClass.COMPLETE">
+ <summary>
+ 完了
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.OrderClass">
+ <summary>
+ 発注区分
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.OrderClass.SUBCONTRACT_ORDER">
+ <summary>
+ 外注発注
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.OrderClass.PAPER_ORDER">
+ <summary>
+ 用紙発注
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TypeGetName">
+ <summary>
+ Type get Name 1：名称、2：略称
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TypeGetName.FULLNAME">
+ <summary>
+ 名称
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TypeGetName.SHORT_NAME">
+ <summary>
+ 略称
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.TargetDateType">
+ <summary>
+ 対象日範囲
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TargetDateType.PURCHASE_DATE">
+ <summary>
+ 発注日
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.TargetDateType.DELIVERY_DATE">
+ <summary>
+ 搬入日
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.PaymentDateType">
+ <summary>
+ 取引先の回収日または支払日
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PaymentDateType.COLLECT_DATE">
+ <summary>
+ 回収日
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.PaymentDateType.PAYMENT_DATE">
+ <summary>
+ 支払日
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.ProcessType">
+ <summary>
+ PROCESS_TYPE
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ProcessType.PREPARATION">
+ <summary>
+ 準備処理
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ProcessType.UNPREPARED">
+ <summary>
+ 準備解除
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.ProcessType.TIGHTENING">
+ <summary>
+ 締処理
+ </summary>
+</member>
+<member name="T:Core.ConstantCore.Consts.StatusClass">
+ <summary>
+ 状態区分
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.StatusClass.CREATE_NEW">
+ <summary>
+ 新規作成
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.StatusClass.EDIT">
+ <summary>
+ 修正
+ </summary>
+</member>
+<member name="F:Core.ConstantCore.Consts.StatusClass.CREATE_REFERENCE">
+ <summary>
+ 参照作成
+ </summary>
+</member>
+<member name="T:Core.Session.UserInfo">
+ <summary>
+ 社員情報
+ </summary>
+</member>
+<member name="T:Core.Session.LoginInfo">
+ <summary>
+ セッション格納ログイン情報
+ </summary>
+</member>
+<member name="T:Core.Util.CsvUtil">
+ <summary>
+ CSVファイル操作のユーティリティクラス
+ </summary>
+</member>
+<member name="M:Core.Util.CsvUtil.CreateHeaderRow(System.Collections.Generic.List{System.String})">
+ <summary>
+ ヘッダ行の出力
+ </summary>
+ <param name="headers"></param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.CsvUtil.CreateValueRow(System.Collections.Generic.List{System.String})">
+ <summary>
+  データの出力
+ </summary>
+ <param name="values"></param>
+ <returns></returns>
+</member>
+<member name="T:Core.Util.DateUtil">
+ <summary>
+ 日付操作を行う汎用クラス
+ </summary>
+</member>
+<member name="M:Core.Util.DateUtil.ConvertDateToString(System.Nullable{System.DateTime},System.String)">
+ <summary>
+ DateからStringまでに変換する。
+ </summary>
+ <param name="dateVal">日付</param>
+ <param name="format">日付変換フォーマット</param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.DateUtil.ConvertStringToDate(System.String,System.String)">
+ <summary>
+ StringからDateまでに変換する。
+ </summary>
+ <param name="dateString">日付</param>
+ <param name="format">日付変換フォーマット</param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.DateUtil.GetMonthBetweenDate(System.DateTime,System.DateTime)">
+ <summary>
+ 月を取得する。
+ </summary>
+ <param name="d1">日付１</param>
+ <param name="d2">日付２</param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.DateUtil.GetSysDate(System.String)">
+ <summary>
+ WEBサーバーのシステム日付を取得する。
+ </summary>
+ <param name="formatType">0：yyyy/MM/dd、1：yyyy/MM/dd HHmmss、2：yyyy/MM/dd HHmmss.fffff、3：yyyy/MM</param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.DateUtil.GetSysDateStartEnd">
+ <summary>
+ システム日付の月の月初と月末を取得する。
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:Core.Util.NumberUtil">
+ <summary>
+ 数操作を行う汎用クラス
+ </summary>
+</member>
+<member name="M:Core.Util.NumberUtil.ConvertNumToStrFormat(System.Nullable{System.Decimal},System.String,System.Boolean)">
+ <summary>
+ Convert number to string with format
+ </summary>
+ <param name="value">数値</param>
+ <param name="format">数変換フォーマット</param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.NumberUtil.ConvertToInteger(System.Object)">
+ <summary>
+ Convert to Integer
+ </summary>
+ <param name="value">値</param>
+ <returns>数値(INTEGER)</returns>
+</member>
+<member name="M:Core.Util.NumberUtil.ConvertToDecimal(System.Object)">
+ <summary>
+ Convert to Decimal
+ </summary>
+ <param name="value">値</param>
+ <returns>数値(DECIMAL)</returns>
+</member>
+<member name="T:Core.Util.StringUtil">
+ <summary>
+ 文字列操作を行う汎用クラス
+ </summary>
+</member>
+<member name="M:Core.Util.StringUtil.ConvertNullToEmpty(System.Object)">
+ <summary>
+ Convert nothing value to empty
+ </summary>
+ <param name="value"></param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.StringUtil.PasswordSha256(System.String)">
+ <summary>
+ パスワード暗号化を処理する。
+ </summary>
+ <param name="password">パスワード</param>
+ <returns>パスワード暗号化</returns>
+</member>
+<member name="M:Core.Util.StringUtil.GetQueryCompleted(System.String,System.Object)">
+ <summary>
+ 
+ </summary>
+ <param name="sql"></param>
+ <param name="obj"></param>
+ <returns> 
+  Param + Sql
+ </returns>
+</member>
+<member name="M:Core.Util.StringUtil.SplitStringByIndex(System.String,System.Int16,System.Int16)">
+ <summary>
+ Split string to two substring by first index substring  and last index substring 
+ </summary>
+ <param name="strSplit">input string</param>
+ <param name="firstIndex">first index substring</param>
+ <param name="lasIndex">last index substring</param>
+ <returns></returns>
+</member>
+<member name="T:Core.Util.MapUtil`2">
+ <summary>
+ 「Object変換」操作のユーティリティクラス
+ </summary>
+ <typeparam name="Source"></typeparam>
+ <typeparam name="Destinate"></typeparam>
+</member>
+<member name="M:Core.Util.MapUtil`2.MapFromTo(`0)">
+ <summary>
+ SourceからDestinateに変換する
+ </summary>
+ <param name="source"></param>
+ <returns></returns>
+</member>
+<member name="M:Core.Util.MapUtil`2.MapFromToList(System.Collections.Generic.List{`0})">
+ <summary>
+ Source一覧からDestinate一覧に変換する
+ </summary>
+ <param name="source"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

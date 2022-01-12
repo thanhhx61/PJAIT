@@ -1,0 +1,24 @@
+﻿.table-editable {
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.table-editable thead th {
+    background-color: #6C757D;
+    color: white;
+    border-right: 1px solid white;
+    padding: 4px;
+}
+
+.table-editable input {
+    border-style: solid;
+    border-width: 0.3px;
+    border-radius: 3px;
+}
+
+.table-editable select {
+    border-style: solid;
+    border-width: 0.3px;
+    border-radius: 3px;
+}

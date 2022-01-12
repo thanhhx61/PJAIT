@@ -1,0 +1,959 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Consts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\consts.vb;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="MSG_001" xml:space="preserve">
+    <value>{0}を入力してください。</value>
+  </data>
+  <data name="MSG_002" xml:space="preserve">
+    <value>{0}に誤りがあります。</value>
+  </data>
+  <data name="MSG_003" xml:space="preserve">
+    <value>{0}を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_004" xml:space="preserve">
+    <value>{0}を削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_005" xml:space="preserve">
+    <value>{0}を登録しました。</value>
+  </data>
+  <data name="MSG_006" xml:space="preserve">
+    <value>{0}を削除しました。</value>
+  </data>
+  <data name="MSG_007" xml:space="preserve">
+    <value>データ更新処理で例外が発生しました。&lt;br /&gt;再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_008" xml:space="preserve">
+    <value>他のユーザーに更新されました。&lt;br /&gt;画面を閉じ、再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_009" xml:space="preserve">
+    <value>検索できる日付は{0}以内です。</value>
+  </data>
+  <data name="MSG_010" xml:space="preserve">
+    <value>検索条件に沿った{0}がありません。</value>
+  </data>
+  <data name="MSG_011" xml:space="preserve">
+    <value>検索条件に沿った{0}CSVを出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_012" xml:space="preserve">
+    <value>対象行を選択してください。</value>
+  </data>
+  <data name="MSG_013" xml:space="preserve">
+    <value>対象行は1行まで選択できます。</value>
+  </data>
+  <data name="MSG_014" xml:space="preserve">
+    <value>{0}を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_015" xml:space="preserve">
+    <value>{0}処理を実行します。よろしいですか？</value>
+  </data>
+  <data name="MSG_016" xml:space="preserve">
+    <value>{0}処理が完了しました。</value>
+  </data>
+  <data name="MSG_017" xml:space="preserve">
+    <value>対象の{0}において、{1}処理が実行されているため、&lt;br /&gt;{2}は削除できません。</value>
+  </data>
+  <data name="MSG_018" xml:space="preserve">
+    <value>ユーザーIDを入力してください。</value>
+  </data>
+  <data name="MSG_019" xml:space="preserve">
+    <value>パスワードを入力してください。</value>
+  </data>
+  <data name="MSG_020" xml:space="preserve">
+    <value>ユーザーIDまたはパスワードに誤りがあります。</value>
+  </data>
+  <data name="MSG_021" xml:space="preserve">
+    <value>システムを利用できないユーザーです。&lt;br /&gt;
+管理者に問合せしてください。</value>
+  </data>
+  <data name="MSG_022" xml:space="preserve">
+    <value>取引不可の得意先は選択できません。&lt;br /&gt;
+管理者に問合せしてください。</value>
+  </data>
+  <data name="MSG_023" xml:space="preserve">
+    <value>他のユーザーに更新されました。&lt;br /&gt;
+画面を閉じ、再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_024" xml:space="preserve">
+    <value>売上が入力済みのため、内外区分に未定は登録できません。</value>
+  </data>
+  <data name="MSG_025" xml:space="preserve">
+    <value>売上金額より小さい受注金額は入力できません。</value>
+  </data>
+  <data name="MSG_026" xml:space="preserve">
+    <value>発注日を入力してください。</value>
+  </data>
+  <data name="MSG_027" xml:space="preserve">
+    <value>開始と終了の大小関係に誤りがあります。</value>
+  </data>
+  <data name="MSG_028" xml:space="preserve">
+    <value>検索できる日付は12か月以内です。</value>
+  </data>
+  <data name="MSG_029" xml:space="preserve">
+    <value>検索条件に沿った外注発注情報がありません。</value>
+  </data>
+  <data name="MSG_030" xml:space="preserve">
+    <value>検索条件に沿った支払予定明細書情報がありません。</value>
+  </data>
+  <data name="MSG_031" xml:space="preserve">
+    <value>支払予定明細書を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_032" xml:space="preserve">
+    <value>買掛締処理が行われていないため、帳票出力できません。</value>
+  </data>
+  <data name="MSG_033" xml:space="preserve">
+    <value>買掛金集計表を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_034" xml:space="preserve">
+    <value>売掛締処理が行われていないため、帳票出力できません。</value>
+  </data>
+  <data name="MSG_035" xml:space="preserve">
+    <value>売掛金元帳を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_036" xml:space="preserve">
+    <value>工程(制作)の作業に誤りがあります。</value>
+  </data>
+  <data name="MSG_037" xml:space="preserve">
+    <value>工程(制作)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・作業・数量・単価・金額)</value>
+  </data>
+  <data name="MSG_038" xml:space="preserve">
+    <value>工程(製版・デジタル印刷)の作業に誤りがあります。</value>
+  </data>
+  <data name="MSG_039" xml:space="preserve">
+    <value>工程(製版・デジタル印刷)の部品に誤りがあります。</value>
+  </data>
+  <data name="MSG_040" xml:space="preserve">
+    <value>工程(製版・デジタル印刷)の必須項目が未入力の行があります。</value>
+  </data>
+  <data name="MSG_041" xml:space="preserve">
+    <value>工程(刷版)の部品に誤りがあります。</value>
+  </data>
+  <data name="MSG_042" xml:space="preserve">
+    <value>工程(刷版)の作業に誤りがあります。</value>
+  </data>
+  <data name="MSG_043" xml:space="preserve">
+    <value>工程(刷版)のサイズに誤りがあります。</value>
+  </data>
+  <data name="MSG_044" xml:space="preserve">
+    <value>工程(刷版)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・部品・頁数・作業・サイズ・面付・&lt;br /&gt;
+ 台数・単価・金額)</value>
+  </data>
+  <data name="MSG_045" xml:space="preserve">
+    <value>工程(印刷)の機種に誤りがあります。</value>
+  </data>
+  <data name="MSG_046" xml:space="preserve">
+    <value>工程(印刷)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・機種・通し数・計算区分・単価・金額)</value>
+  </data>
+  <data name="MSG_047" xml:space="preserve">
+    <value>工程(加工)の作業に誤りがあります。</value>
+  </data>
+  <data name="MSG_048" xml:space="preserve">
+    <value>工程(加工)のサイズに誤りがあります。</value>
+  </data>
+  <data name="MSG_049" xml:space="preserve">
+    <value>工程(加工)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・作業・サイズ・数量・単価・金額)</value>
+  </data>
+  <data name="MSG_050" xml:space="preserve">
+    <value>工程(用紙)の部品に誤りがあります。</value>
+  </data>
+  <data name="MSG_051" xml:space="preserve">
+    <value>工程(用紙)の銘柄に誤りがあります。</value>
+  </data>
+  <data name="MSG_052" xml:space="preserve">
+    <value>工程(用紙)の必須項目が未入力の行があります。&lt;br /&gt;
+(当/先・部品・銘柄・規格・縦・横・&lt;br /&gt;
+ R/S・連量・単位区分・数量・数量合計・単価・金額)</value>
+  </data>
+  <data name="MSG_053" xml:space="preserve">
+    <value>工程(その他)の作業に誤りがあります。</value>
+  </data>
+  <data name="MSG_054" xml:space="preserve">
+    <value>工程(その他)の必須項目が未入力の行があります。&lt;br /&gt;
+(内外・作業・数量・単価・金額)</value>
+  </data>
+  <data name="MSG_055" xml:space="preserve">
+    <value>工程(製版・デジタル印刷)で選択できる部品は工程(刷版)と&lt;br /&gt;
+同じでなければなりません。</value>
+  </data>
+  <data name="MSG_056" xml:space="preserve">
+    <value>工程(加工)で選択できる部品は工程(刷版)と同じでなければなりません。</value>
+  </data>
+  <data name="MSG_057" xml:space="preserve">
+    <value>品名を入力してください。</value>
+  </data>
+  <data name="MSG_058" xml:space="preserve">
+    <value>得意先を入力してください。</value>
+  </data>
+  <data name="MSG_059" xml:space="preserve">
+    <value>担当を入力してください。</value>
+  </data>
+  <data name="MSG_060" xml:space="preserve">
+    <value>受注日を入力してください。</value>
+  </data>
+  <data name="MSG_061" xml:space="preserve">
+    <value>納品日を入力してください。</value>
+  </data>
+  <data name="MSG_062" xml:space="preserve">
+    <value>受注金額を入力してください。</value>
+  </data>
+  <data name="MSG_063" xml:space="preserve">
+    <value>得意先に誤りがあります。</value>
+  </data>
+  <data name="MSG_064" xml:space="preserve">
+    <value>担当に誤りがあります。</value>
+  </data>
+  <data name="MSG_065" xml:space="preserve">
+    <value>受注日と納品日の大小関係に誤りがあります。</value>
+  </data>
+  <data name="MSG_066" xml:space="preserve">
+    <value>受注日と検収日の大小関係に誤りがあります。</value>
+  </data>
+  <data name="MSG_067" xml:space="preserve">
+    <value>製品サイズ(縦・横)を入力してください。</value>
+  </data>
+  <data name="MSG_068" xml:space="preserve">
+    <value>受注金額と明細金額が一致していません。</value>
+  </data>
+  <data name="MSG_069" xml:space="preserve">
+    <value>受注金額の桁数を超過しています。(9桁)</value>
+  </data>
+  <data name="MSG_070" xml:space="preserve">
+    <value>明細金額の桁数を超過しています。(9桁)</value>
+  </data>
+  <data name="MSG_071" xml:space="preserve">
+    <value>明細仕切金額の桁数を超過しています。(9桁)</value>
+  </data>
+  <data name="MSG_072" xml:space="preserve">
+    <value>対象日を入力してください。</value>
+  </data>
+  <data name="MSG_073" xml:space="preserve">
+    <value>発注担当を入力してください。</value>
+  </data>
+  <data name="MSG_074" xml:space="preserve">
+    <value>発注先を入力してください。</value>
+  </data>
+  <data name="MSG_075" xml:space="preserve">
+    <value>納期を入力してください。</value>
+  </data>
+  <data name="MSG_076" xml:space="preserve">
+    <value>発注担当に誤りがあります。</value>
+  </data>
+  <data name="MSG_077" xml:space="preserve">
+    <value>発注先に誤りがあります。</value>
+  </data>
+  <data name="MSG_078" xml:space="preserve">
+    <value>納入先に誤りがあります。</value>
+  </data>
+  <data name="MSG_079" xml:space="preserve">
+    <value>納期時刻はHHMM形式で入力してください。&lt;br /&gt;
+例. 12:30の場合、1230</value>
+  </data>
+  <data name="MSG_080" xml:space="preserve">
+    <value>外注発注の明細を入力してください。</value>
+  </data>
+  <data name="MSG_081" xml:space="preserve">
+    <value>作業を入力してください。</value>
+  </data>
+  <data name="MSG_082" xml:space="preserve">
+    <value>作業名を入力してください。</value>
+  </data>
+  <data name="MSG_083" xml:space="preserve">
+    <value>発注金額を入力してください。</value>
+  </data>
+  <data name="MSG_084" xml:space="preserve">
+    <value>合計金額は999,999,999を超えることはできません。</value>
+  </data>
+  <data name="MSG_085" xml:space="preserve">
+    <value>取引不可の発注先は選択できません。</value>
+  </data>
+  <data name="MSG_086" xml:space="preserve">
+    <value>取引不可の納入先は選択できません。</value>
+  </data>
+  <data name="MSG_087" xml:space="preserve">
+    <value>外注発注書を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_088" xml:space="preserve">
+    <value>同じコードのデータが既に存在しています。</value>
+  </data>
+  <data name="MSG_089" xml:space="preserve">
+    <value>コードの桁数は{0}桁で入力してください。</value>
+  </data>
+  <data name="MSG_090" xml:space="preserve">
+    <value>外注発注情報を登録しました。</value>
+  </data>
+  <data name="MSG_091" xml:space="preserve">
+    <value>仕入が完了した外注発注のため、外注発注情報を更新できません。</value>
+  </data>
+  <data name="MSG_092" xml:space="preserve">
+    <value>外注発注情報を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_093" xml:space="preserve">
+    <value>対象の外注発注において、仕入情報が既に登録されているため、&lt;br /&gt;
+外注発注登録は削除できません。</value>
+  </data>
+  <data name="MSG_094" xml:space="preserve">
+    <value>外注発注情報を削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_095" xml:space="preserve">
+    <value>外注発注情報を削除しました。</value>
+  </data>
+  <data name="MSG_096" xml:space="preserve">
+    <value>コード情報を登録しました。</value>
+  </data>
+  <data name="MSG_097" xml:space="preserve">
+    <value>このコードは変更不可のコードのため、削除できません。</value>
+  </data>
+  <data name="MSG_098" xml:space="preserve">
+    <value>コード情報を削除しました。</value>
+  </data>
+  <data name="MSG_099" xml:space="preserve">
+    <value>入力内容を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_100" xml:space="preserve">
+    <value>用紙発注の明細を入力してください。</value>
+  </data>
+  <data name="MSG_101" xml:space="preserve">
+    <value>対象の用紙発注において、仕入情報が既に登録されているため、&lt;br /&gt;
+用紙発注登録は変更できません。&lt;br /&gt;
+仕入情報を削除してから再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_102" xml:space="preserve">
+    <value>銘柄を入力してください。</value>
+  </data>
+  <data name="MSG_103" xml:space="preserve">
+    <value>連量を入力してください。</value>
+  </data>
+  <data name="MSG_104" xml:space="preserve">
+    <value>厚さを入力してください。</value>
+  </data>
+  <data name="MSG_105" xml:space="preserve">
+    <value>数量を入力してください。</value>
+  </data>
+  <data name="MSG_106" xml:space="preserve">
+    <value>単価を入力してください。</value>
+  </data>
+  <data name="MSG_107" xml:space="preserve">
+    <value>金額を入力してください。</value>
+  </data>
+  <data name="MSG_108" xml:space="preserve">
+    <value>倉庫を入力してください。</value>
+  </data>
+  <data name="MSG_109" xml:space="preserve">
+    <value>銘柄に誤りがあります。</value>
+  </data>
+  <data name="MSG_110" xml:space="preserve">
+    <value>断数を選択してください。</value>
+  </data>
+  <data name="MSG_111" xml:space="preserve">
+    <value>寸法(縦横)を入力してください。</value>
+  </data>
+  <data name="MSG_112" xml:space="preserve">
+    <value>数量は999,999,999.999を超えることはできません。</value>
+  </data>
+  <data name="MSG_113" xml:space="preserve">
+    <value>搬入時刻はHHMM形式で入力してください。&lt;br /&gt;
+例. 12:30の場合、1230</value>
+  </data>
+  <data name="MSG_114" xml:space="preserve">
+    <value>選択した規格がコードマスタに存在しない　または　マスタの内容に誤りがあります。</value>
+  </data>
+  <data name="MSG_115" xml:space="preserve">
+    <value>仕入日を入力してください。</value>
+  </data>
+  <data name="MSG_116" xml:space="preserve">
+    <value>外注仕入の明細を入力してください。</value>
+  </data>
+  <data name="MSG_117" xml:space="preserve">
+    <value>税率を入力してください。</value>
+  </data>
+  <data name="MSG_118" xml:space="preserve">
+    <value>外注発注金額を超える外注仕入登録はできません。</value>
+  </data>
+  <data name="MSG_119" xml:space="preserve">
+    <value>外注仕入情報を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_120" xml:space="preserve">
+    <value>外注仕入情報を登録しました。</value>
+  </data>
+  <data name="MSG_121" xml:space="preserve">
+    <value>外注仕入情報を削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_122" xml:space="preserve">
+    <value>外注仕入情報を削除しました。</value>
+  </data>
+  <data name="MSG_123" xml:space="preserve">
+    <value>対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;
+外注仕入情報は登録できません。</value>
+  </data>
+  <data name="MSG_124" xml:space="preserve">
+    <value>対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;
+外注仕入情報は削除できません。</value>
+  </data>
+  <data name="MSG_125" xml:space="preserve">
+    <value>対象の外注発注が削除されています。&lt;br /&gt;
+再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_126" xml:space="preserve">
+    <value>該当の得意先は準備処理が完了しています。&lt;br /&gt;
+再度準備処理を行う場合、該当の得意先の準備処理を&lt;br /&gt;
+解除してください。</value>
+  </data>
+  <data name="MSG_127" xml:space="preserve">
+    <value>該当の得意先は準備処理が完了していないため、'解除ができません。</value>
+  </data>
+  <data name="MSG_128" xml:space="preserve">
+    <value>入力した請求締日が存在しません。</value>
+  </data>
+  <data name="MSG_129" xml:space="preserve">
+    <value>請求締処理が未処理の締日の場合、帳票は出力できません。</value>
+  </data>
+  <data name="MSG_130" xml:space="preserve">
+    <value>データが取得できませんでした。</value>
+  </data>
+  <data name="MSG_131" xml:space="preserve">
+    <value>用紙発注情報を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_132" xml:space="preserve">
+    <value>用紙発注情報を登録しました。</value>
+  </data>
+  <data name="MSG_133" xml:space="preserve">
+    <value>対象の支払日において、買掛締処理が実行されているため、&lt;br /&gt;支払情報は登録できません。</value>
+  </data>
+  <data name="MSG_134" xml:space="preserve">
+    <value>用紙発注情報を削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_135" xml:space="preserve">
+    <value>用紙発注情報をボディ部に反映します。よろしいですか？</value>
+  </data>
+  <data name="MSG_136" xml:space="preserve">
+    <value>ボディ部に反映しました。</value>
+  </data>
+  <data name="MSG_137" xml:space="preserve">
+    <value>用紙発注情報をボディ部から削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_138" xml:space="preserve">
+    <value>用紙発注情報の明細を削除しました。</value>
+  </data>
+  <data name="MSG_139" xml:space="preserve">
+    <value>入力内容をクリアしてよろしいですか？</value>
+  </data>
+  <data name="MSG_140" xml:space="preserve">
+    <value>用紙発注情報を削除しました。</value>
+  </data>
+  <data name="MSG_141" xml:space="preserve">
+    <value>該当の得意先はすでに登録されています。</value>
+  </data>
+  <data name="MSG_142" xml:space="preserve">
+    <value>該当の得意先は、締め日が異なるため、追加できません。</value>
+  </data>
+  <data name="MSG_143" xml:space="preserve">
+    <value>選択した得意先を明細から削除しました。</value>
+  </data>
+  <data name="MSG_144" xml:space="preserve">
+    <value>請求締準備処理が{0}しました。</value>
+  </data>
+  <data name="MSG_145" xml:space="preserve">
+    <value>入力した取引先が存在しません。</value>
+  </data>
+  <data name="MSG_146" xml:space="preserve">
+    <value>{0}はハイフン(-)を含めて入力してください。</value>
+  </data>
+  <data name="MSG_147" xml:space="preserve">
+    <value>{0}に入力できる数値は01～31です。</value>
+  </data>
+  <data name="MSG_148" xml:space="preserve">
+    <value>同じ名称・支店名・略称のデータが既に存在しています。</value>
+  </data>
+  <data name="MSG_149" xml:space="preserve">
+    <value>売掛締処理 - 締処理が完了しました。&lt;br /&gt; 売掛締月を翌月に繰越しました。</value>
+  </data>
+  <data name="MSG_150" xml:space="preserve">
+    <value>売掛締処理 - 準備解除処理が完了しました。</value>
+  </data>
+  <data name="MSG_151" xml:space="preserve">
+    <value>売掛締処理 - 準備処理が完了しました。</value>
+  </data>
+  <data name="MSG_152" xml:space="preserve">
+    <value>締月は準備処理が完了しています。&lt;br /&gt; 再度準備処理を行う場合、準備処理を解除してください。</value>
+  </data>
+  <data name="MSG_153" xml:space="preserve">
+    <value>締月は準備処理が完了していません。</value>
+  </data>
+  <data name="MSG_154" xml:space="preserve">
+    <value>締月は準備処理が完了していません。&lt;br /&gt; 準備処理が完了してから、締処理を実行してください。</value>
+  </data>
+  <data name="MSG_155" xml:space="preserve">
+    <value>用紙仕入対象の行がありません。</value>
+  </data>
+  <data name="MSG_156" xml:space="preserve">
+    <value>対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;用紙仕入情報は登録できません。</value>
+  </data>
+  <data name="MSG_157" xml:space="preserve">
+    <value>対象の仕入日において、買掛締処理が実行されているため、&lt;br /&gt;用紙仕入情報は削除できません。</value>
+  </data>
+  <data name="MSG_158" xml:space="preserve">
+    <value>対象の用紙発注が削除されています。&lt;br /&gt;再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_159" xml:space="preserve">
+    <value>仕入先を入力してください。</value>
+  </data>
+  <data name="MSG_160" xml:space="preserve">
+    <value>支払日を入力してください。</value>
+  </data>
+  <data name="MSG_161" xml:space="preserve">
+    <value>検索条件に沿った支払情報がありません。</value>
+  </data>
+  <data name="MSG_162" xml:space="preserve">
+    <value>支払情報を削除しました。</value>
+  </data>
+  <data name="MSG_163" xml:space="preserve">
+    <value>入力内容を削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_164" xml:space="preserve">
+    <value>支払情報を登録しました。</value>
+  </data>
+  <data name="MSG_165" xml:space="preserve">
+    <value>発注先が2つ以上選択されています。</value>
+  </data>
+  <data name="MSG_166" xml:space="preserve">
+    <value>対象の入金日において、{0}処理が実行されているため、&lt;br /&gt; 入金情報は登録できません。</value>
+  </data>
+  <data name="MSG_167" xml:space="preserve">
+    <value>入金情報を{0}しました。</value>
+  </data>
+  <data name="MSG_168" xml:space="preserve">
+    <value>選択した発注の用紙仕入登録を行います。よろしいですか？</value>
+  </data>
+  <data name="MSG_169" xml:space="preserve">
+    <value>このコードは変更不可のコードのため、更新できません。</value>
+  </data>
+  <data name="MSG_170" xml:space="preserve">
+    <value>発注日または仕入日を入力してください。</value>
+  </data>
+  <data name="MSG_171" xml:space="preserve">
+    <value>検索条件で発注先が未指定のため、納入依頼書を出力できません。&lt;br /&gt;
+検索条件で発注先を指定して再検索してください。</value>
+  </data>
+  <data name="MSG_172" xml:space="preserve">
+    <value>検索条件に沿った外注仕入情報がありません。</value>
+  </data>
+  <data name="MSG_173" xml:space="preserve">
+    <value>該当の仕入先は準備処理が完了しています。&lt;br /&gt;再度準備処理を行う場合、該当の仕入先の準備処理を解除してください。</value>
+  </data>
+  <data name="MSG_174" xml:space="preserve">
+    <value>該当の仕入先は準備処理が完了していないため、解除できません。</value>
+  </data>
+  <data name="MSG_175" xml:space="preserve">
+    <value>検索条件で倉庫が未指定のため、納入予定表を出力できません。&lt;br/&gt;検索条件で倉庫を指定して再検索してください。</value>
+  </data>
+  <data name="MSG_176" xml:space="preserve">
+    <value>該当の締日は準備処理が完了していないため、解除できません。</value>
+  </data>
+  <data name="MSG_177" xml:space="preserve">
+    <value>検索条件に沿った用紙仕入情報がありません。</value>
+  </data>
+  <data name="MSG_178" xml:space="preserve">
+    <value>同じ銘柄名・品種・メーカーのデータが既に存在しています。</value>
+  </data>
+  <data name="MSG_179" xml:space="preserve">
+    <value>検索条件に沿った用紙発注情報がありません。</value>
+  </data>
+  <data name="MSG_180" xml:space="preserve">
+    <value>用紙情報を削除しました。</value>
+  </data>
+  <data name="MSG_181" xml:space="preserve">
+    <value>用紙情報を登録しました。</value>
+  </data>
+  <data name="MSG_182" xml:space="preserve">
+    <value>一括仕入できる行数は最大100行です。</value>
+  </data>
+  <data name="MSG_183" xml:space="preserve">
+    <value>選択した発注の納入依頼書を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_184" xml:space="preserve">
+    <value>選択した発注の納入予定表を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_185" xml:space="preserve">
+    <value>得意先と受注担当のいずれかを入力してください。</value>
+  </data>
+  <data name="MSG_186" xml:space="preserve">
+    <value>検索条件に沿った売上情報がありません。</value>
+  </data>
+  <data name="MSG_187" xml:space="preserve">
+    <value>スケジュール登録画面を起動する前に受注情報を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_188" xml:space="preserve">
+    <value>受注情報を登録しました。</value>
+  </data>
+  <data name="MSG_189" xml:space="preserve">
+    <value>データ更新処理で例外が発生しました。&lt;br /&gt;再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_190" xml:space="preserve">
+    <value>受注情報を登録します。よろしいですか？</value>
+  </data>
+  <data name="MSG_191" xml:space="preserve">
+    <value>受注情報を削除しました。</value>
+  </data>
+  <data name="MSG_192" xml:space="preserve">
+    <value>完納済みの受注のため、受注情報を更新できません。</value>
+  </data>
+  <data name="MSG_193" xml:space="preserve">
+    <value>他のユーザーに更新されました。&lt;br /&gt; 画面を閉じ、再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_194" xml:space="preserve">
+    <value>受注に対する発注が入力済みのため、&lt;br /&gt; 受注情報は削除できません。</value>
+  </data>
+  <data name="MSG_195" xml:space="preserve">
+    <value>受注に対する売上が入力済みのため、&lt;br /&gt; 受注情報は削除できません。</value>
+  </data>
+  <data name="MSG_196" xml:space="preserve">
+    <value>受注情報を削除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_197" xml:space="preserve">
+    <value>受注伝票を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_198" xml:space="preserve">
+    <value>検索条件に沿った受注情報がありません。</value>
+  </data>
+  <data name="MSG_199" xml:space="preserve">
+    <value>{0}を出力します。よろしいですか？</value>
+  </data>
+  <data name="MSG_200" xml:space="preserve">
+    <value>通し数の大小関係に誤りがあります。</value>
+  </data>
+  <data name="MSG_201" xml:space="preserve">
+    <value>同じ原価単価情報が既に登録されています。</value>
+  </data>
+  <data name="MSG_202" xml:space="preserve">
+    <value>該当の得意先の締日は{0}処理が完了しているため、{1}できません。</value>
+  </data>
+  <data name="MSG_203" xml:space="preserve">
+    <value>選択した得意先を明細から削除しますか？</value>
+  </data>
+  <data name="MSG_204" xml:space="preserve">
+    <value>売上を入力してください。</value>
+  </data>
+  <data name="MSG_205" xml:space="preserve">
+    <value>受注金額を超えた売上金額は入力できません。</value>
+  </data>
+  <data name="MSG_206" xml:space="preserve">
+    <value>内訳は5つまで入力できます。</value>
+  </data>
+  <data name="MSG_207" xml:space="preserve">
+    <value>対象の請求日において、請求締処理が実行されているため、&lt;br /&gt;売上情報は登録できません。</value>
+  </data>
+  <data name="MSG_208" xml:space="preserve">
+    <value>対象の売上日において、売掛締処理が実行されているため、&lt;br /&gt;売上情報は登録できません。</value>
+  </data>
+  <data name="MSG_209" xml:space="preserve">
+    <value>売上情報を削除しました。</value>
+  </data>
+  <data name="MSG_210" xml:space="preserve">
+    <value>該当の締日は準備処理が完了しています。&lt;br /&gt; 再度準備処理を行う場合、準備処理を解除してください。</value>
+  </data>
+  <data name="MSG_211" xml:space="preserve">
+    <value>該当の締日は準備処理が完了していません。&lt;br /&gt; 準備処理が完了してから、締処理を実行してください。</value>
+  </data>
+  <data name="MSG_212" xml:space="preserve">
+    <value>該当の締日は準備処理が完了しています。&lt;br /&gt; 再度準備処理を行う場合、該当の得意先の準備処理を解除してください。</value>
+  </data>
+  <data name="MSG_213" xml:space="preserve">
+    <value>請求締準備処理を実行します。よろしいですか？</value>
+  </data>
+  <data name="MSG_214" xml:space="preserve">
+    <value>取引区分を入力してください。</value>
+  </data>
+  <data name="MSG_215" xml:space="preserve">
+    <value>支払金額を入力してください。</value>
+  </data>
+  <data name="MSG_216" xml:space="preserve">
+    <value>手形内訳に誤りがあります。</value>
+  </data>
+  <data name="MSG_217" xml:space="preserve">
+    <value>手形期日を入力してください。</value>
+  </data>
+  <data name="MSG_218" xml:space="preserve">
+    <value>請求締準備処理を解除します。よろしいですか？</value>
+  </data>
+  <data name="MSG_219" xml:space="preserve">
+    <value>該当の得意先は準備処理が完了していないため、解除ができません。</value>
+  </data>
+  <data name="MSG_220" xml:space="preserve">
+    <value>該当の締日は準備処理が完了しているため、削除できません。</value>
+  </data>
+  <data name="MSG_221" xml:space="preserve">
+    <value>売上内訳情報を削除しました。</value>
+  </data>
+  <data name="MSG_222" xml:space="preserve">
+    <value>売上金額は999,999,999を超えることはできません。</value>
+  </data>
+  <data name="MSG_223" xml:space="preserve">
+    <value>合計は999,999,999を超えることはできません。</value>
+  </data>
+  <data name="MSG_224" xml:space="preserve">
+    <value>売上金額と内訳の合計金額が不一致です。</value>
+  </data>
+  <data name="MSG_225" xml:space="preserve">
+    <value>更新対象のデータがありません。</value>
+  </data>
+  <data name="MSG_226" xml:space="preserve">
+    <value>他のユーザーによって請求締処理または請求締解除処理が実行されました。&lt;br /&gt; 画面を閉じ、再度処理を実行してください。</value>
+  </data>
+  <data name="MSG_227" xml:space="preserve">
+    <value>売上情報を登録しました。</value>
+  </data>
+  <data name="MSG_228" xml:space="preserve">
+    <value>取込ファイルが未選択です。</value>
+  </data>
+  <data name="MSG_229" xml:space="preserve">
+    <value>ファイル形式に誤りがあります。CSVファイルのみ取込できます。</value>
+  </data>
+  <data name="MSG_230" xml:space="preserve">
+    <value>CSVの文字コードにSJIS以外が指定されています。</value>
+  </data>
+  <data name="MSG_231" xml:space="preserve">
+    <value>レコードの項目数が4以外の行があります。</value>
+  </data>
+  <data name="MSG_232" xml:space="preserve">
+    <value>取込対象のレコードがありません。</value>
+  </data>
+  <data name="MSG_233" xml:space="preserve">
+    <value>CSVファイル内に重複した受注番号が存在します。</value>
+  </data>
+  <data name="MSG_234" xml:space="preserve">
+    <value>1列目：受注番号を入力してください。</value>
+  </data>
+  <data name="MSG_235" xml:space="preserve">
+    <value>2列目：工程を入力してください。</value>
+  </data>
+  <data name="MSG_236" xml:space="preserve">
+    <value>3列目：原価区分を入力してください。</value>
+  </data>
+  <data name="MSG_237" xml:space="preserve">
+    <value>4列目：原価を入力してください。</value>
+  </data>
+  <data name="MSG_238" xml:space="preserve">
+    <value>指定した原価に数値以外の値が入力されています。({0}行)</value>
+  </data>
+  <data name="MSG_239" xml:space="preserve">
+    <value>存在しない受注番号が指定されています。({0}行)</value>
+  </data>
+  <data name="MSG_240" xml:space="preserve">
+    <value>指定した工程に誤りがあります。({0}行)</value>
+  </data>
+  <data name="MSG_241" xml:space="preserve">
+    <value>指定した原価区分に誤りがあります。({0}行)</value>
+  </data>
+  <data name="MSG_242" xml:space="preserve">
+    <value>受注番号：{0}の製造原価がマイナスとなりました。&lt;br /&gt; 
+取込できません。({1}行)</value>
+  </data>
+  <data name="MSG_243" xml:space="preserve">
+    <value>受注番号：{0}の製造原価が999,999,999を&lt;br /&gt; 
+超えたため、取込できません。({1}行)</value>
+  </data>
+  <data name="MSG_244" xml:space="preserve">
+    <value>原価データを取込します。よろしいですか？</value>
+  </data>
+  <data name="MSG_245" xml:space="preserve">
+    <value>原価データ取込が完了しました。</value>
+  </data>
+  <data name="MSG_246" xml:space="preserve">
+    <value>請求書編集の明細は25明細まで入力できます。</value>
+  </data>
+  <data name="MSG_247" xml:space="preserve">
+    <value>内訳を選択した場合は、売上金額を入力してください。</value>
+  </data>
+  <data name="MSG_248" xml:space="preserve">
+    <value>内訳を選択してください。</value>
+  </data>
+  <data name="MSG_249" xml:space="preserve">
+    <value>内訳・品名・売上金額を入力してください。</value>
+  </data>
+  <data name="MSG_250" xml:space="preserve">
+    <value>請求情報が全て印字しないになっています。</value>
+  </data>
+  <data name="MSG_251" xml:space="preserve">
+    <value>請求金額と明細合計金額が一致していません。</value>
+  </data>
+  <data name="MSG_252" xml:space="preserve">
+    <value>{0}が存在する行は削除できません。</value>
+  </data>
+  <data name="MSG_253" xml:space="preserve">
+    <value>入力内容をボディ部から削除しますか？</value>
+  </data>
+  <data name="MSG_254" xml:space="preserve">
+    <value>請求書編集情報を登録しました。</value>
+  </data>
+  <data name="MSG_255" xml:space="preserve">
+    <value>作業コードに誤りがあります。</value>
+  </data>
+  <data name="MSG_256" xml:space="preserve">
+    <value>指定した請求書番号の請求書が存在しません。</value>
+  </data>
+  <data name="MSG_257" xml:space="preserve">
+    <value>売上日を入力してください。</value>
+  </data>
+  <data name="MSG_258" xml:space="preserve">
+    <value>既に削除された発注情報です。外注発注検索画面でデータの再検索を行ってください。</value>
+  </data>
+  <data name="MSG_259" xml:space="preserve">
+    <value>既に削除された受注情報です。受注検索画面でデータの再検索を行ってください。</value>
+  </data>
+  <data name="MSG_260" xml:space="preserve">
+    <value>既に削除された受注情報です。外注発注検索画面でデータの再検索を行ってください。</value>
+  </data>
+  <data name="MSG_261" xml:space="preserve">
+    <value>既に削除された仕入情報です。外注仕入検索画面でデータの再検索を行ってください。</value>
+  </data>
+  <data name="MSG_262" xml:space="preserve">
+    <value>既に削除された発注情報です。用紙発注検索画面でデータの再検索を行ってください。</value>
+  </data>
+  <data name="MSG_263" xml:space="preserve">
+    <value>既に削除された仕入情報です。用紙仕入検索画面でデータの再検索を行ってください。</value>
+  </data>
+  <data name="MSG_264" xml:space="preserve">
+    <value>搬入日を入力してください。</value>
+  </data>
+  <data name="MSG_265" xml:space="preserve">
+    <value>金額は999,999,999を超えることはできません。</value>
+  </data>
+  <data name="MSG_266" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MSG_267" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MSG_268" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MSG_269" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MSG_270" xml:space="preserve">
+    <value />
+  </data>
+</root>

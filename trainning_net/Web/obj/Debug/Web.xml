@@ -1,0 +1,390 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Web
+</name>
+</assembly>
+<members>
+<member name="F:Web.Controllers.BaseController.SJIS_ENC">
+ <summary>
+ 文字エンコーディング
+ </summary>
+</member>
+<member name="M:Web.Controllers.BaseController.SetResponse(System.String)">
+ <summary>
+ Set Response
+ </summary>
+ <param name="message">message Error</param>
+</member>
+<member name="M:Web.Controllers.BaseController.ExportPdf(System.Object)">
+ <summary>
+ Export pdf (Crystal report)
+ </summary>
+ <param name="exportOptions">Options</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.BaseController.ExportPdfSaveFile(System.Object)">
+ <summary>
+ Export pdf (Crystal report)
+ </summary>
+ <param name="exportOptions">Options</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.BaseController.ExportPdfAndSetInfoResponseFile(System.Object)">
+ <summary>
+ Export pdf file in response header (Crystal report)
+ </summary>
+ <param name="exportOptions">Options - should be ExportPDFModel</param>
+</member>
+<member name="T:Web.Controllers.TPL00010Controller">
+ <summary>
+ ログイン画面コントローラ
+ </summary>
+</member>
+<member name="F:Web.Controllers.TPL00010Controller._loginService">
+ <summary>
+ ログイン画面のサービス
+ </summary>
+</member>
+<member name="M:Web.Controllers.TPL00010Controller.#ctor(Services.Services.ITPL00010Service)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="LoginService">ITPL00010Service</param>
+</member>
+<member name="M:Web.Controllers.TPL00010Controller.Index">
+ <summary>
+ 初期表示
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPL00010Controller.Login(Web.Models.LoginViewModel)">
+ <summary>
+ Loginボタン押下
+ </summary>
+ <param name="model"></param>
+ <returns></returns>
+</member>
+<member name="T:Web.Controllers.TPL00020Controller">
+ <summary>
+ メニュー画面コントローラ
+ </summary>
+</member>
+<member name="F:Web.Controllers.TPL00020Controller._menuService">
+ <summary>
+ メニュー画面のサービス
+ </summary>
+</member>
+<member name="M:Web.Controllers.TPL00020Controller.#ctor(Services.Services.ITPL00020Service)">
+ <summary>
+ コンストラクタ
+ </summary>
+ <param name="MenuService"></param>
+</member>
+<member name="M:Web.Controllers.TPL00020Controller.Index">
+ <summary>
+ 初期表示
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPL00020Controller.getProgram(Web.Models.TPL00020ViewModel)">
+ <summary>
+ Process Name onClick
+ </summary>
+ <param name="model"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPL00020Controller.Logout">
+ <summary>
+ Logout onClick
+ </summary>
+</member>
+<member name="T:Web.Controllers.TPL01040Controller">
+ <summary>
+ 受注検索
+ </summary>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.Index">
+ <summary>
+ Form_Load時仕様
+ </summary>
+ <returns>Page Index</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.Search(Web.Models.TPL01040ViewModel)">
+ <summary>
+ 検索ボタンクリック時
+ </summary>
+ <param name="viewModel">TPL01040ViewModel</param>
+ <returns>Table search result</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.ExportCSV(Web.Models.TPL01040ViewModel)">
+ <summary>
+ Export To CSVボタンクリック時
+ </summary>
+ <param name="viewModel">TPL01040ViewModel</param>
+ <returns>CSV file</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.GoToTPL01010(System.String,System.Boolean)">
+ <summary>
+ 9.選択 10. 参照作成
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <param name="isSelectBtn">False is 10. 参照作成</param>
+ <returns>Set TempData for TPL01010</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.GoToTPL02010(System.String)">
+ <summary>
+ 15.外注発注
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>Set TempData for TPL02010</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.GoToTPL02030(System.String)">
+ <summary>
+ 16.用紙発注
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>Set TempData for TPL02030</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.CheckSalesRegister(System.String)">
+ <summary>
+ 17.売上
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>Check sales can register or not</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.GoToTPL04010(System.String)">
+ <summary>
+  17.売上
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>Set TempData for TPL04010</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.GoToTPL05030(System.String)">
+ <summary>
+ 18.原価
+ </summary>
+ <param name="orderNo">受注番号</param>
+ <returns>Set TempData for TPL05030</returns>
+</member>
+<member name="M:Web.Controllers.TPL01040Controller.GetParamSearch(Web.Models.TPL01040ViewModel)">
+ <summary>
+ Constructor or search param
+ </summary>
+ <param name="viewModel">TPL01040ViewModel</param>
+ <returns>SearchOrderParamDto</returns>
+</member>
+<member name="M:Web.Controllers.TPL04020Controller.Search(Web.Models.TPL04020ViewModel)">
+ <summary>
+ 検索ボタンクリック時
+ </summary>
+ <param name="viewModel">TPL01040ViewModel</param>
+ <returns>Table search result</returns>
+</member>
+<member name="T:Web.Controllers.TPLSearchHelpController">
+ <summary>
+ Popup controller
+ </summary>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.TPL99010W(Web.Models.TPL99010WViewModel)">
+ <summary>
+ TPL99010W_コード選択
+ </summary>
+ <param name="viewModel">TPL99010WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.SearchTPL99010(Web.Models.TPL99010WViewModel)">
+ <summary>
+ TPL99010W_コード選択 - Table HTML
+ </summary>
+ <param name="viewModel">TPL99010WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.TPL99020W(Web.Models.TPL99020WViewModel)">
+ <summary>
+ TPL99020W_取引先選択
+ </summary>
+ <param name="viewModel">TPL99020WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.SearchTPL99020(Web.Models.TPL99020WViewModel)">
+ <summary>
+ TPL99020W_取引先選択 Table HTML
+ </summary>
+ <param name="viewModel">TPL99020WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.TPL99040W(Web.Models.TPL99040WViewModel)">
+ <summary>
+ TPL99040W_担当選択
+ </summary>
+ <param name="viewModel">TPL99040WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.SearchTPL99040(Web.Models.TPL99040WViewModel)">
+ <summary>
+ TPL99040W_担当選択 Table HTML
+ </summary>
+ <param name="viewModel">TPL99040WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.TPL99050W(Web.Models.TPL99050WViewModel)">
+ <summary>
+ TPL99050W_用紙選択
+ </summary>
+ <param name="viewModel">TPL99050WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.Controllers.TPLSearchHelpController.SearchTPL99050(Web.Models.TPL99050WViewModel)">
+ <summary>
+ TPL99050W_用紙選択 - Table HTML
+ </summary>
+ <param name="viewModel">TPL99050WViewModel</param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLCode(System.String,System.String,System.Int32,System.Int32,System.String,System.Int32,System.String,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ コード
+ </summary>
+ <param name="name1"></param>
+ <param name="name2"></param>
+ <param name="codeWidth"></param>
+ <param name="nameWidth"></param>
+ <param name="identify"></param>
+ <param name="length"></param>
+ <param name="type"></param>
+ <param name="disableFlag1"></param>
+ <param name="disableFlag2"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="nameValue"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLCodeForGrid(System.String,System.Int32,System.Int32,System.String,System.String,System.Boolean,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ コード Grid
+ </summary>
+ <param name="name"></param>
+ <param name="codeWidth"></param>
+ <param name="identify"></param>
+ <param name="length"></param>
+ <param name="type"></param>
+ <param name="disableFlag"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="classField"></param>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLCustomer(System.String,System.String,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ 取引先
+ </summary>
+ <param name="name1"></param>
+ <param name="name2"></param>
+ <param name="codeWidth"></param>
+ <param name="nameWidth"></param>
+ <param name="customerType"></param>
+ <param name="disableFlag1"></param>
+ <param name="disableFlag2"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="nameValue"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLOrderNo(System.String,System.String,System.Int32,System.Int32,System.Boolean,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ 受注番号
+ </summary>
+ <param name="name1"></param>
+ <param name="name2"></param>
+ <param name="codeWidth"></param>
+ <param name="nameWidth"></param>
+ <param name="disableFlag"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="nameValue"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLPerson(System.String,System.String,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ 担当
+ </summary>
+ <param name="name1"></param>
+ <param name="name2"></param>
+ <param name="codeWidth"></param>
+ <param name="nameWidth"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="nameValue"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLDepartment(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.String,System.String)">
+ <summary>
+ 担当部署
+ </summary>
+ <param name="name1"></param>
+ <param name="name2"></param>
+ <param name="name3"></param>
+ <param name="name4"></param>
+ <param name="codeWidth"></param>
+ <param name="nameWidth1"></param>
+ <param name="nameWidth2"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="nameValue1"></param>
+ <param name="nameValue2"></param>
+ <param name="nameValue3"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLPaper(System.String,System.String,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ 用紙
+ </summary>
+ <param name="name1"></param>
+ <param name="name2"></param>
+ <param name="codeWidth"></param>
+ <param name="nameWidth"></param>
+ <param name="disableFlag1"></param>
+ <param name="disableFlag2"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="nameValue"></param>
+ <returns></returns>
+</member>
+<member name="M:Web.CustomHTML.CustomeHTMLHelper.TPLPaperForGrid(System.String,System.Int32,System.Boolean,System.Int32,System.String,System.String,System.String)">
+ <summary>
+ Custom 用紙 for grid
+ </summary>
+ <param name="name1"></param>
+ <param name="codeWidth"></param>
+ <param name="disableFlag1"></param>
+ <param name="tabIndex"></param>
+ <param name="codeValue"></param>
+ <param name="classField"></param>
+ <param name="id"></param>
+ <returns></returns>
+</member>
+<member name="T:Web.DataSetTPL03081P">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Web.DataSetTPL03081P.TPL03081PDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Web.DataSetTPL03081P.TPL03081PRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Web.DataSetTPL03081P.TPL03081PRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+</members>
+</doc>

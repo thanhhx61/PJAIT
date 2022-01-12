@@ -1,0 +1,42 @@
+﻿/*.wrapper-table-fixed {
+    position: relative;
+    overflow: auto;
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.table-fixed td.sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.table-fixed tr:nth-child(even) td.sticky-col {
+    background-color: #FFFFFF;
+}
+
+.table-fixed tr:nth-child(odd) td.sticky-col {
+    background-color: #EDEDED;
+}
+
+.table-fixed th.sticky-col {
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #6C757D;
+    padding: 4px;
+    color: white;
+    z-index: 2;
+}
+
+.table-fixed th {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}*/
+
+
+
+
+
+

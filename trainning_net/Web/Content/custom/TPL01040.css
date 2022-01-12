@@ -1,0 +1,179 @@
+﻿.tpl01040 .txt-name{
+    width: 102px;
+}
+.tpl01040 .w-34px {
+    width: 34px;
+}
+
+.tpl01040 .w-90px {
+    width: 90px;
+}
+
+.tpl01040 .w-100px {
+    width: 100px;
+}
+
+.tpl01040 .w-110px {
+    width: 110px;
+}
+
+.tpl01040 .w-120px {
+    width: 120px;
+}
+.tpl01040 .w-180px {
+    width: 180px;
+}
+.tpl01040 .w-330px {
+    width: 330px;
+}
+.tpl01040 .w-480px {
+    width: 480px;
+}
+.tpl01040 table input {
+    height: 13px!important;
+}
+
+.tpl01040 .lb-required {
+    color: red;
+}
+
+.tpl01040 .group-checkbox {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    position: relative;
+}
+
+.group-checkbox .check-one:before,
+.group-checkbox .check-one:after {
+    left: 108px;
+}
+
+.tpl01040 .check-one {
+    width: 100px;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+.tpl01040 label {
+    margin-bottom: 0;
+    margin-bottom: 0;
+}
+
+.tpl01040 body {
+    font-size: 11pt !important;
+}
+
+.tpl01040 #container-list {
+    position: relative;
+    height: calc(100vh - 90px);
+}
+
+.tpl01040 .group-footer {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.tpl01040 #table-container {
+    display: block;
+    width: 100%;
+    position: relative;
+    min-height: calc(100vh - 345px);
+}
+
+    .tpl01040 #table-container tbody tr.selected {
+        background-color: #B0BED9;
+    }
+
+.tpl01040 .text-center {
+    text-align: center
+}
+
+.tpl01040 .cus-max-width {
+    max-width: 21%
+}
+
+.tpl01040 #btn-export-csv {
+    width: 100%
+}
+
+.tpl01040 .container-table {
+    display: flex;
+    padding: 0;
+}
+
+
+.tpl01040 .container-table table {
+    margin-bottom: 0;
+}
+
+.tpl01040 .sub-header {
+    position: absolute;
+    top: 0px;
+}
+
+.tpl01040 .left-ver {
+    width: 690px;
+}
+
+.tpl01040 .right-ver {
+    width: calc(100% - 690px);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+    .tpl01040 .right-ver table {
+        width: 880px;
+    }
+
+.tpl01040 .container-table table tr td,
+.tpl01040 .container-table table tr th {
+    padding: 0 5px;
+    height: 26px;
+    border-bottom: none;
+}
+
+    .tpl01040 .container-table table tr td span {
+        padding: 0 5px;
+    }
+
+    .tpl01040 .container-table table tr td:hover {
+        cursor: pointer;
+    }
+
+.tpl01040 .group-pagination-content {
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 17px;
+}
+
+.tpl01040 .footer-button {
+    text-align: right;
+}
+
+.tpl01040 table td td:focus,
+.tpl01040 table tr td:focus-visible {
+    outline: 2px solid #000000;
+    border-radius: 3px;
+    outline-offset: -2px;
+}
+
+.tpl01040 .div-btn-hide {
+    width: 122px;
+}
+
+.tpl01040 .ml-2cell {
+    margin-left:34px;
+}
+
+.tpl01040 .ml-1cell {
+    margin-left: 17px;
+}
+
+.tpl01040 table tr.highlight {
+    background-color: #B0BED9 !important;
+}
